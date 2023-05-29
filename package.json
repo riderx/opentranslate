@@ -17,8 +17,12 @@
     "sizecheck": "npx vite-bundle-visualizer"
   },
   "dependencies": {
+    "@capacitor/android": "^5.0.4",
+    "@capacitor/core": "^5.0.4",
+    "@capacitor/ios": "^5.0.4",
     "@unhead/vue": "^1.1.27",
     "@unocss/reset": "^0.52.2",
+    "@vueuse/components": "^10.1.2",
     "@vueuse/core": "^10.1.2",
     "@vueuse/head": "^1.1.26",
     "axios": "^1.4.0",
@@ -32,6 +36,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.3",
+    "@capacitor/cli": "^5.0.4",
     "@iconify-json/carbon": "^1.1.16",
     "@iconify-json/lucide": "^1.1.94",
     "@intlify/unplugin-vue-i18n": "^0.10.0",

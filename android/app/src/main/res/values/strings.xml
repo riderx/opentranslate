@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OpenTranslate</string>
+    <string name="title_activity_main">OpenTranslate</string>
+    <string name="package_name">ee.forgr.opentranslate</string>
+    <string name="custom_url_scheme">ee.forgr.opentranslate</string>
+</resources>

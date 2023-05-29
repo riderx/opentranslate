@@ -334,7 +334,6 @@ declare module 'vue' {
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly getTokenLength: UnwrapRef<typeof import('./composables/openai')['getTokenLength']>
     readonly getTokenSystemLength: UnwrapRef<typeof import('./composables/openai')['getTokenSystemLength']>
-    readonly getTokenTotalLength: UnwrapRef<typeof import('./composables/openai')['getTokenTotalLength']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
     readonly ignorableWatch: UnwrapRef<typeof import('@vueuse/core')['ignorableWatch']>
     readonly inject: UnwrapRef<typeof import('vue')['inject']>
@@ -627,7 +626,6 @@ declare module '@vue/runtime-core' {
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly getTokenLength: UnwrapRef<typeof import('./composables/openai')['getTokenLength']>
     readonly getTokenSystemLength: UnwrapRef<typeof import('./composables/openai')['getTokenSystemLength']>
-    readonly getTokenTotalLength: UnwrapRef<typeof import('./composables/openai')['getTokenTotalLength']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
     readonly ignorableWatch: UnwrapRef<typeof import('@vueuse/core')['ignorableWatch']>
     readonly inject: UnwrapRef<typeof import('vue')['inject']>
