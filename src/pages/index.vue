@@ -13,7 +13,7 @@ defineOptions({
 })
 const requestText = ref('')
 const responseText = ref('')
-const isLoading = ref(true)
+const isLoading = ref(false)
 const requestLang = ref('auto')
 const responseLang = ref('English')
 const keyStore = useApiKeyStore()
