@@ -13,6 +13,7 @@ defineOptions({
 })
 const requestText = ref('')
 const responseText = ref('')
+const isLoading = ref(false)
 const requestLang = ref('auto')
 const responseLang = ref('English')
 const keyStore = useApiKeyStore()
@@ -42,6 +43,7 @@ async function translateText() {
   const privateRequest = { ...request }
   privateRequest.payload = ''
   trackEvent('opentranslate.app', 'translate', privateRequest)
+  isLoading.value = true
   try {
     const res = await sendTranslateRequest(keyStore.savedKey, request)
     if (res?.result)
@@ -50,6 +52,7 @@ async function translateText() {
   catch (e) {
     toast.error(t('something-went-wrong-'))
   }
+  isLoading.value = false
 }
 </script>
 
@@ -123,7 +126,10 @@ async function translateText() {
             </option>
           </select>
           <button class="w-full rounded bg-blue-500 px-4 py-2 text-white md:ml-2 md:w-auto" @click="translateText">
-            🌏 {{ t('translate') }}
+            <p v-if="!isLoading">
+              🌏 {{ t('translate') }}
+            </p>
+            <div v-else i-lucide-loader-2 class="animate-spin" />
           </button>
         </div>
       </div>
