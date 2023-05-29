@@ -3,6 +3,7 @@ import { sendTranslateRequest } from '~/composables/openai'
 import type { OpenAiRequest } from '~/composables/openai'
 import { langs } from '~/composables/langs'
 import { tones } from '~/composables/tones'
+import { trackEvent } from '~/composables/plausible'
 
 const { t } = useI18n()
 defineOptions({
@@ -36,6 +37,9 @@ async function translateText() {
     tone: tone.value,
   }
   const res = await sendTranslateRequest(keyStore.savedKey, request)
+  const privateRequest = { ...request }
+  privateRequest.payload = ''
+  trackEvent('opentranslate.app', 'translate', privateRequest)
   if (res?.result)
     responseText.value = res?.result
 }
