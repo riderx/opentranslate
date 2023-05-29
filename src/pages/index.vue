@@ -13,7 +13,7 @@ defineOptions({
 })
 const requestText = ref('')
 const responseText = ref('')
-const isLoading = ref(false)
+const isLoading = ref(true)
 const requestLang = ref('auto')
 const responseLang = ref('English')
 const keyStore = useApiKeyStore()
@@ -135,7 +135,10 @@ async function translateText() {
             <p v-if="!isLoading">
               🌏 {{ t('translate') }}
             </p>
-            <div v-else i-lucide-loader-2 class="animate-spin" />
+            <div v-else class="flex">
+              <div i-lucide-loader-2 class="mr-1 mt-1 animate-spin" />
+              {{ t('processing') }}...
+            </div>
           </button>
         </div>
       </div>
