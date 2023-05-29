@@ -28,5 +28,6 @@ async function closeModal() {
       </div>
     </div>
     <TheModal :open="tokenModal" @close="closeModal" />
+    <Toast />
   </div>
 </template>

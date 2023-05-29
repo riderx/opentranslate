@@ -14,5 +14,6 @@ intro:
   hi: Merhaba, {name}!
   whats-your-name: Adınız nedir?
 not-found: Bulunamadı
+something-went-wrong-: Bir şeyler yanlış oldu. Lütfen sonra tekrar deneyiniz
 support: Destek
 translate: Çevirmek

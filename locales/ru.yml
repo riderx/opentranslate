@@ -13,5 +13,6 @@ intro:
   hi: Привет, {name}!
   whats-your-name: Как тебя зовут?
 not-found: Не найден
+something-went-wrong-: Что-то пошло не так. Пожалуйста, повторите попытку позже
 support: Поддерживать
 translate: Переводить

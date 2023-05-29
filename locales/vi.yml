@@ -13,5 +13,6 @@ intro:
   hi: Hi, {name}!
   whats-your-name: Tên bạn là gì?
 not-found: Không tìm thấy
+something-went-wrong-: Đã xảy ra lỗi, vui lòng thử lại sau
 support: Ủng hộ
 translate: Dịch

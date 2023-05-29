@@ -13,5 +13,6 @@ intro:
   hi: Ciao, {name}!
   whats-your-name: Come ti chiami?
 not-found: Non trovato
+something-went-wrong-: Qualcosa è andato storto, riprova più tardi
 support: Supporto
 translate: Tradurre

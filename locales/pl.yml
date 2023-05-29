@@ -14,5 +14,6 @@ intro:
   hi: Cześć, {name}!
   whats-your-name: Jak masz na imię?
 not-found: Nie znaleziono
+something-went-wrong-: Coś poszło nie tak. Proszę spróbować później
 support: Wsparcie
 translate: Tłumaczyć

@@ -18,5 +18,6 @@ declare module '@vue/runtime-core' {
     TheHeader: typeof import('./components/TheHeader.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
     TheModal: typeof import('./components/TheModal.vue')['default']
+    Toast: typeof import('./components/Toast.vue')['default']
   }
 }

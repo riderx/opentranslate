@@ -14,5 +14,6 @@ intro:
   hi: Salut, {name}!
   whats-your-name: Comment t'appelles-tu ?
 not-found: Page non trouvée
+something-went-wrong-: Quelque chose c'est mal passé. Merci d'essayer plus tard
 support: Soutien
 translate: Traduire

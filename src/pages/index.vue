@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { toast } from 'vue-sonner'
+import Popper from 'vue3-popper'
 import { sendTranslateRequest } from '~/composables/openai'
 import type { OpenAiRequest } from '~/composables/openai'
 import { langs } from '~/composables/langs'
@@ -28,6 +30,7 @@ const tokenLenght = computed(() => getTokenLength(requestText.value))
 
 function copyToClipboard() {
   navigator.clipboard.writeText(responseText.value)
+  toast.success(t('copied-to-clipboard'))
 }
 async function translateText() {
   const request: OpenAiRequest = {
@@ -36,12 +39,17 @@ async function translateText() {
     payload: requestText.value,
     tone: tone.value,
   }
-  const res = await sendTranslateRequest(keyStore.savedKey, request)
   const privateRequest = { ...request }
   privateRequest.payload = ''
   trackEvent('opentranslate.app', 'translate', privateRequest)
-  if (res?.result)
-    responseText.value = res?.result
+  try {
+    const res = await sendTranslateRequest(keyStore.savedKey, request)
+    if (res?.result)
+      responseText.value = res?.result
+  }
+  catch (e) {
+    toast.error(t('something-went-wrong-'))
+  }
 }
 </script>
 
@@ -70,36 +78,40 @@ async function translateText() {
           </select>
         </div>
       </div>
-      <div class="grid grid-cols-1 mt-8 gap-4 md:grid-cols-2">
+      <div class="grid grid-cols-1 mt-8 md:grid-cols-2 md:gap-4">
         <div class="relative h-1/2-screen w-full">
-          <textarea v-model="requestText" maxlength="8000" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
+          <textarea v-model="requestText" maxlength="7500" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
           <div class="absolute absolute right-2 top-2">
-            <div class="group relative inline-block">
+            <Popper>
               <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300">
                 {{ tokenLenght }}
               </button>
-              <div class="absolute left-0 z-100 mt-2 w-40 border border-gray-900 rounded bg-gray-800 p-2 text-sm text-white opacity-0 dark:border-light-50 group-hover:opacity-100">
-                {{ tokenLenght }} / 7 500 tokens
-              </div>
-            </div>
+              <template #content>
+                <div class="pointer-events-none w-28 rounded-lg bg-black px-3 py-2 text-center text-xs text-white opacity-100 -left-1/2">
+                  {{ tokenLenght }} / 7 500 tokens
+                </div>
+              </template>
+            </Popper>
           </div>
         </div>
 
         <div class="relative h-1/2-screen w-full">
           <textarea v-model="responseText" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Translated text will appear here" readonly />
           <div class="absolute absolute right-2 top-2">
-            <div class="group relative inline-block">
-              <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300" @click="copyToClipboard">
+            <Popper>
+              <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300" @click="copyToClipboard()">
                 <div i-lucide-clipboard-copy />
               </button>
-              <div class="absolute left-0 z-100 mt-2 w-40 border border-gray-900 rounded bg-gray-800 p-2 text-sm text-white opacity-0 dark:border-light-50 group-hover:opacity-100">
-                {{ t('copy-to-clipboard') }}
-              </div>
-            </div>
+              <template #content>
+                <div class="pointer-events-none w-28 rounded-lg bg-black px-3 py-2 text-center text-xs text-white opacity-100 -left-1/2">
+                  {{ t('copy-to-clipboard') }}
+                </div>
+              </template>
+            </Popper>
           </div>
         </div>
       </div>
-      <div class="fixed bottom-0 right-0 w-full flex-row-reverse items-center md:relative md:flex md:flex-wrap md:justify-between">
+      <div class="absolute bottom-0 right-0 w-full flex-row-reverse items-center md:relative md:flex md:flex-wrap md:justify-between">
         <div class="flex items-center md:flex-wrap md:justify-between">
           <select v-model="tone" class="w-auto bg-transparent px-4 py-2 md:ml-2 md:mt-0 md:w-auto dark:text-white">
             <option v-for="t in tones" :key="t.code" :value="t.name">

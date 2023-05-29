@@ -22,7 +22,8 @@ const dateUsage = computed(() => {
         🔑 Enter API Key:
       </h2>
       <p class="mb-6 text-gray-600 dark:text-gray-300">
-        Your API Key is stored locally on your browser and never sent anywhere else. Works only with GPT-4 model.
+        Your API Key is stored locally on your browser and never sent anywhere else.
+        <br>Works only with GPT-4 model.
       </p>
       <label for="api_key" class="mb-2 block text-gray-800 dark:text-white">OpenAI API Key:</label>
       <input id="api_key" v-model="keyStore.savedKey" type="text" class="mb-4 w-full border border-gray-300 rounded p-2 dark:border-gray-600 dark:bg-gray-700 dark:text-white" placeholder="Enter your API key">

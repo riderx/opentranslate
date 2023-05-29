@@ -5,6 +5,7 @@ button:
   home: Home
   toggle_dark: Toggle dark mode
   toggle_langs: Change languages
+copied-to-clipboard: Copied to clipboard
 copy-to-clipboard: Copy to clipboard
 detect-language: Detect language
 intro:
@@ -14,5 +15,6 @@ intro:
   hi: Hi, {name}!
   whats-your-name: What's your name?
 not-found: Not found
+something-went-wrong-: Something went wrong, please try again later
 support: Support
 translate: Translate

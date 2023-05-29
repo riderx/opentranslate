@@ -1,9 +1,11 @@
 import { ViteSSG } from 'vite-ssg'
 import { setupLayouts } from 'virtual:generated-layouts'
-
-// import Previewer from 'virtual:vue-component-preview'
 import App from './App.vue'
 import type { UserModule } from './types'
+import { usePlausible } from '~/composables/plausible'
+import { useCrisp } from '~/composables/crisp'
+
+// import Previewer from 'virtual:vue-component-preview'
 import generatedRoutes from '~pages'
 
 import '@unocss/reset/tailwind.css'
