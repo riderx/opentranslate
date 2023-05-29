@@ -3,5 +3,10 @@ import { Toaster } from 'vue-sonner'
 </script>
 
 <template>
-  <Toaster rich-colors close-button position="top-right" />
+  <client-only>
+    <Toaster rich-colors close-button position="top-right" />
+    <template #placeholder>
+      <div class="invisible" />
+    </template>
+  </client-only>
 </template>

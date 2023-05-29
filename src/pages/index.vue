@@ -82,32 +82,36 @@ async function translateText() {
         <div class="relative h-1/2-screen w-full">
           <textarea v-model="requestText" maxlength="7500" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
           <div class="absolute absolute right-2 top-2">
-            <Popper>
-              <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300">
-                {{ tokenLenght }}
-              </button>
-              <template #content>
-                <div class="pointer-events-none w-28 rounded-lg bg-black px-3 py-2 text-center text-xs text-white opacity-100 -left-1/2">
-                  {{ tokenLenght }} / 7 500 tokens
-                </div>
-              </template>
-            </Popper>
+            <client-only>
+              <Popper>
+                <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300">
+                  {{ tokenLenght }}
+                </button>
+                <template #content>
+                  <div class="pointer-events-none w-28 rounded-lg bg-black px-3 py-2 text-center text-xs text-white opacity-100 -left-1/2">
+                    {{ tokenLenght }} / 7 500 tokens
+                  </div>
+                </template>
+              </Popper>
+            </client-only>
           </div>
         </div>
 
         <div class="relative h-1/2-screen w-full">
           <textarea v-model="responseText" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Translated text will appear here" readonly />
           <div class="absolute absolute right-2 top-2">
-            <Popper>
-              <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300" @click="copyToClipboard()">
-                <div i-lucide-clipboard-copy />
-              </button>
-              <template #content>
-                <div class="pointer-events-none w-28 rounded-lg bg-black px-3 py-2 text-center text-xs text-white opacity-100 -left-1/2">
-                  {{ t('copy-to-clipboard') }}
-                </div>
-              </template>
-            </Popper>
+            <client-only>
+              <Popper>
+                <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300" @click="copyToClipboard()">
+                  <div i-lucide-clipboard-copy />
+                </button>
+                <template #content>
+                  <div class="pointer-events-none w-28 rounded-lg bg-black px-3 py-2 text-center text-xs text-white opacity-100 -left-1/2">
+                    {{ t('copy-to-clipboard') }}
+                  </div>
+                </template>
+              </Popper>
+            </client-only>
           </div>
         </div>
       </div>
