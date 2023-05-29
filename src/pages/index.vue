@@ -53,7 +53,7 @@ async function translateText() {
   trackEvent('opentranslate.app', 'translate', privateRequest)
   isLoading.value = true
   try {
-    const res = await sendTranslateRequest(keyStore.savedKey, request)
+    const res = await sendTranslateRequest(keyStore.savedKey, request, keyStore.model)
     if (res?.result)
       responseText.value = res?.result
   }
@@ -76,7 +76,6 @@ async function translateText() {
             <option v-for="lang in langs" :key="lang.code" :value="lang.name">
               {{ lang.emoji }} {{ lang.name }}
             </option>
-          <!-- Add more languages here -->
           </select>
         </div>
         <button i-lucide-arrow-right-left class="flex-grow" @click="invertText" />
@@ -85,7 +84,6 @@ async function translateText() {
             <option v-for="lang in langs" :key="lang.code" :value="lang.name">
               {{ lang.emoji }} {{ lang.name }}
             </option>
-          <!-- Add more languages here -->
           </select>
         </div>
       </div>
