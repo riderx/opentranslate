@@ -34,6 +34,8 @@ declare global {
   const getCurrentInstance: typeof import('vue')['getCurrentInstance']
   const getCurrentScope: typeof import('vue')['getCurrentScope']
   const getTokenLength: typeof import('./composables/openai')['getTokenLength']
+  const getTokenSystemLength: typeof import('./composables/openai')['getTokenSystemLength']
+  const getTokenTotalLength: typeof import('./composables/openai')['getTokenTotalLength']
   const h: typeof import('vue')['h']
   const ignorableWatch: typeof import('@vueuse/core')['ignorableWatch']
   const inject: typeof import('vue')['inject']
@@ -331,6 +333,8 @@ declare module 'vue' {
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly getTokenLength: UnwrapRef<typeof import('./composables/openai')['getTokenLength']>
+    readonly getTokenSystemLength: UnwrapRef<typeof import('./composables/openai')['getTokenSystemLength']>
+    readonly getTokenTotalLength: UnwrapRef<typeof import('./composables/openai')['getTokenTotalLength']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
     readonly ignorableWatch: UnwrapRef<typeof import('@vueuse/core')['ignorableWatch']>
     readonly inject: UnwrapRef<typeof import('vue')['inject']>
@@ -622,6 +626,8 @@ declare module '@vue/runtime-core' {
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly getTokenLength: UnwrapRef<typeof import('./composables/openai')['getTokenLength']>
+    readonly getTokenSystemLength: UnwrapRef<typeof import('./composables/openai')['getTokenSystemLength']>
+    readonly getTokenTotalLength: UnwrapRef<typeof import('./composables/openai')['getTokenTotalLength']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
     readonly ignorableWatch: UnwrapRef<typeof import('@vueuse/core')['ignorableWatch']>
     readonly inject: UnwrapRef<typeof import('vue')['inject']>
