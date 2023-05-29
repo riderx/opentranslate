@@ -13,6 +13,7 @@ intro:
   hi: Привіт, {name}!
   whats-your-name: Як тебе звати?
 not-found: Не знайдено
+please-enter-text-to-translate: Будь ласка, введіть текст для перекладу
 please-enter-your-api-key: Спочатку введіть apikey
 something-went-wrong-: Щось пішло не так, спробуйте пізніше
 support: Підтримка

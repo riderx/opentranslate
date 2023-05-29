@@ -13,6 +13,7 @@ intro:
   hi: Ciao, {name}!
   whats-your-name: Come ti chiami?
 not-found: Non trovato
+please-enter-text-to-translate: Inserisci un testo da tradurre
 please-enter-your-api-key: Inserisci prima un apikey
 something-went-wrong-: Qualcosa è andato storto, riprova più tardi
 support: Supporto

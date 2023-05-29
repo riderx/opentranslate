@@ -13,6 +13,7 @@ intro:
   hi: Hi, {name}!
   whats-your-name: Tên bạn là gì?
 not-found: Không tìm thấy
+please-enter-text-to-translate: Vui lòng nhập văn bản để dịch
 please-enter-your-api-key: Vui lòng nhập apikey trước
 something-went-wrong-: Đã xảy ra lỗi, vui lòng thử lại sau
 support: Ủng hộ

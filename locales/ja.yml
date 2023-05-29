@@ -13,6 +13,7 @@ intro:
   hi: こんにちは、{name}!
   whats-your-name: 君の名は。
 not-found: 見つかりませんでした
+please-enter-text-to-translate: 翻訳するテキストを入力してください
 please-enter-your-api-key: 最初に apikey を入力してください
 something-went-wrong-: 何かが間違っています。後でもう一度試してください
 support: サポート

@@ -14,6 +14,7 @@ intro:
   hi: Olá, {name}!
   whats-your-name: Qual é o seu nome?
 not-found: Não encontrado
+please-enter-text-to-translate: Por favor, insira um texto para traduzir
 please-enter-your-api-key: Insira um apikey primeiro
 something-went-wrong-: Algo deu errado, tente novamente mais tarde
 support: Apoiar

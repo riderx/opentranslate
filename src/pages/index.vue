@@ -38,6 +38,10 @@ async function translateText() {
     toast.error(t('please-enter-your-api-key'))
     return
   }
+  if (!requestText.value) {
+    toast.error(t('please-enter-text-to-translate'))
+    return
+  }
   const request: OpenAiRequest = {
     lang_from: requestLang.value,
     lang_to: responseLang.value,
