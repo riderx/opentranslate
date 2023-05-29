@@ -42,8 +42,8 @@ export async function sendTranslateRequest(token: string, payload: OpenAiRequest
   const bodyToken = getTokenLength(payloadString)
   const keyStore = useApiKeyStore()
   // add bodyToken to tokenUsage
-  keyStore.setNewUsage(keyStore.tokenUsage + bodyToken)
-  keyStore.setNewUsagePrompt(keyStore.tokenUsagePrompt + getTokenSystemLength())
+  keyStore.tokenUsage += bodyToken
+  keyStore.tokenUsagePrompt += getTokenSystemLength()
   const options = {
     headers: {
       'Authorization': `Bearer ${token}`,
