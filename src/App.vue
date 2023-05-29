@@ -8,7 +8,7 @@ useHead({
     { name: 'description', content: 'Translate interface made with Chat-gpt, allow using voice tone, 100% open source' },
     {
       name: 'theme-color',
-      content: () => isDark.value ? '#00aba9' : '#ffffff',
+      content: () => isDark.value ? '#1F2937' : '#ffffff',
     },
   ],
   link: [
