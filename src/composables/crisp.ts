@@ -55,7 +55,7 @@ declare global {
 }
 
 export class CapacitorCrispWeb {
-  ifrm: HTMLIFrameElement = document.createElement('iframe')
+  ifrm: HTMLIFrameElement | null = null
   isReady = false
   isIframe = true
   tmpArr: unknown[] = []
@@ -71,6 +71,7 @@ export class CapacitorCrispWeb {
 
   public init() {
     if (this.isIframe) {
+      this.ifrm = document.createElement('iframe')
       this.createStyle()
       document.body.appendChild(this.ifrm)
       this.createIframe()
@@ -97,6 +98,8 @@ export class CapacitorCrispWeb {
   }
 
   private createStyle() {
+    if (!this.ifrm)
+      return
     this.ifrm.style.position = 'absolute'
     this.ifrm.style.bottom = '0'
     this.ifrm.style.right = '0'
@@ -125,6 +128,8 @@ export class CapacitorCrispWeb {
   }
 
   private createIframe() {
+    if (!this.ifrm)
+      return
     if (!this.ifrm.contentWindow || !this.ifrm.contentDocument) {
       console.error(
         'iframe not created, missing contentWindow or contentDocument',
@@ -140,7 +145,7 @@ export class CapacitorCrispWeb {
       cross_origin_cookies: true,
     }
     this.ifrm.contentWindow.CRISP_READY_TRIGGER = () => {
-      if (!this.ifrm.contentWindow)
+      if (!this.ifrm?.contentWindow)
         return
       this.isReady = true
       this.push([])
@@ -204,7 +209,7 @@ export class CapacitorCrispWeb {
     }
     else {
       this.tmpArr.forEach((arg) => {
-        if (this.ifrm.contentWindow)
+        if (this.ifrm?.contentWindow)
           this.ifrm.contentWindow?.pushToCrisp(JSON.stringify(arg))
         else
           window.$crisp.push(arg)
@@ -212,7 +217,7 @@ export class CapacitorCrispWeb {
       this.tmpArr.length = 0
     }
     args.forEach((arg) => {
-      if (this.ifrm.contentWindow)
+      if (this.ifrm?.contentWindow)
         this.ifrm.contentWindow?.pushToCrisp(JSON.stringify(arg))
       else
         window.$crisp.push(arg)
@@ -220,20 +225,20 @@ export class CapacitorCrispWeb {
   }
 
   async configure(data: { websiteID: string }): Promise<void> {
-    if (this.ifrm.contentWindow)
+    if (this.ifrm?.contentWindow)
       this.ifrm.contentWindow.CRISP_WEBSITE_ID = data.websiteID
     window.CRISP_WEBSITE_ID = data.websiteID
   }
 
   async closeMessenger(): Promise<void> {
-    if (this.ifrm.contentWindow)
+    if (this.ifrm?.contentWindow)
       this.ifrm.style.visibility = 'hidden'
     else
       this.push(['do', 'chat:hide'])
   }
 
   async openMessenger(): Promise<void> {
-    if (this.ifrm.contentWindow) {
+    if (this.ifrm?.contentWindow) {
       this.ifrm.style.visibility = 'visible'
       this.ifrm.style.display = 'block'
     }
@@ -244,7 +249,7 @@ export class CapacitorCrispWeb {
   }
 
   async setTokenID(data: { tokenID: string }): Promise<void> {
-    if (this.ifrm.contentWindow)
+    if (this.ifrm?.contentWindow)
       this.ifrm.contentWindow.CRISP_TOKEN_ID = data.tokenID
     window.CRISP_WEBSITE_ID = data.tokenID
     this.reset()

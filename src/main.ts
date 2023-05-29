@@ -21,5 +21,9 @@ export const createApp = ViteSSG(
     Object.values(import.meta.glob<{ install: UserModule }>('./modules/*.ts', { eager: true }))
       .forEach(i => i.install?.(ctx))
     // ctx.app.use(Previewer)
+    if (ctx.isClient) {
+      usePlausible('opentranslate.app')
+      useCrisp('775a71ae-b8fd-4f24-9ce7-84ce4d0356b6')
+    }
   },
 )

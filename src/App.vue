@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import { useCrisp } from './composables/crisp'
-import { usePlausible } from './composables/plausible'
-
 // https://github.com/vueuse/head
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
@@ -22,8 +19,6 @@ useHead({
     },
   ],
 })
-usePlausible('opentranslate.app')
-useCrisp('775a71ae-b8fd-4f24-9ce7-84ce4d0356b6')
 </script>
 
 <template>
