@@ -16,17 +16,17 @@ const dateUsage = computed(() => {
 </script>
 
 <template>
-  <div v-if="open" class="fixed inset-0 z-50 flex items-center justify-center">
-    <div class="max-w-md w-full rounded-lg bg-white p-6 shadow-lg dark:bg-gray-800">
+  <div v-if="open" class="absolute top-0 z-50 flex items-center justify-center px-0 md:fixed md:inset-0 md:px-4">
+    <div class="h-screen w-screen bg-white p-4 shadow-lg md:max-w-md sm:h-auto sm:w-auto md:rounded-lg dark:bg-gray-800 md:p-6">
       <h2 class="mb-4 text-2xl font-bold text-gray-800 dark:text-white">
         🔑 Enter API Key:
       </h2>
       <p class="mb-6 text-gray-600 dark:text-gray-300">
-        Your API Key is stored locally on your browser and never sent anywhere else.
+        Your API Key is stored locally on your browser and never sent anywhere else. Works only with GPT-4 model.
       </p>
       <label for="api_key" class="mb-2 block text-gray-800 dark:text-white">OpenAI API Key:</label>
       <input id="api_key" v-model="keyStore.savedKey" type="text" class="mb-4 w-full border border-gray-300 rounded p-2 dark:border-gray-600 dark:bg-gray-700 dark:text-white" placeholder="Enter your API key">
-      <div class="my-4 rounded-md bg-green-100 px-2 py-1 text-left dark:bg-sky-900">
+      <div class="my-4 max-h-100 overflow-y-auto rounded-md bg-green-100 px-2 py-1 text-left dark:bg-sky-900">
         <div class="my-4 cursor-pointer text-center font-semibold hover:underline">
           💸 Token Usage Report
         </div>
