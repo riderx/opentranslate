@@ -5,10 +5,13 @@ button:
   home: Beranda
   toggle_dark: Ubah ke mode gelap
   toggle_langs: Ubah bahasa
+copy-to-clipboard: Menyalin ke clipboard
+detect-language: Mendeteksi bahasa
 intro:
+  aka: Juga diketahui sebagai
   desc: Template awal vite
   dynamic-route: Contoh rute dinamik
   hi: Halo, {name}!
-  aka: Juga diketahui sebagai
   whats-your-name: Siapa nama anda?
 not-found: Tidak ditemukan
+translate: Menerjemahkan

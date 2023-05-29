@@ -5,9 +5,12 @@ button:
   home: Головна
   toggle_dark: Переключити темний режим
   toggle_langs: Змінити мову
+copy-to-clipboard: Копіювати в буфер обміну
+detect-language: Визначити мову
 intro:
   desc: Самостійний початковий шаблон Vite
   dynamic-route: Демо динамічного маршруту
   hi: Привіт, {name}!
   whats-your-name: Як тебе звати?
 not-found: Не знайдено
+translate: Перекласти

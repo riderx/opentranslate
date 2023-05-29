@@ -5,10 +5,13 @@ button:
   home: Strona główna
   toggle_dark: Ustaw tryb nocny
   toggle_langs: Zmień język
+copy-to-clipboard: Skopiuj do schowka
+detect-language: Wykryj język
 intro:
+  aka: Znany też jako
   desc: Opiniowany szablon startowy Vite
   dynamic-route: Demonstracja dynamicznego route
   hi: Cześć, {name}!
-  aka: Znany też jako
   whats-your-name: Jak masz na imię?
 not-found: Nie znaleziono
+translate: Tłumaczyć

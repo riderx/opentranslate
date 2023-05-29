@@ -5,10 +5,13 @@ button:
   home: მთავარი
   toggle_dark: გადართე მუქი რეჟიმი
   toggle_langs: ენის შეცვლა
+copy-to-clipboard: კოპირება ბუფერში
+detect-language: ენის ამოცნობა
 intro:
+  aka: ასევე ცნობილი როგორც
   desc: Opinionated Vite Starter Template
   dynamic-route: დინამიური როუტინგის დემო
   hi: გამარჯობა, {name}!
-  aka: ასევე ცნობილი როგორც
   whats-your-name: რა გქვია?
 not-found: ვერ მოიძებნა
+translate: თარგმნეთ

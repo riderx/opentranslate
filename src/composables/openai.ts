@@ -25,9 +25,6 @@ export const getTokenLength = function (token: string) {
 export const getTokenSystemLength = function () {
   return encode(system_prompt).length
 }
-export const getTokenTotalLength = function (token: string) {
-  return getTokenLength(token) + getTokenSystemLength()
-}
 
 export async function sendTranslateRequest(token: string, payload: OpenAiRequest) {
   const url = 'https://api.openai.com/v1/chat/completions'

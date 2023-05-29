@@ -5,9 +5,12 @@ button:
   home: Home
   toggle_dark: Attiva/disattiva modalità scura
   toggle_langs: Cambia lingua
+copy-to-clipboard: Copia negli appunti
+detect-language: Rileva lingua
 intro:
   desc: Modello per una Applicazione Vite
   dynamic-route: Demo di rotta dinamica
   hi: Ciao, {name}!
   whats-your-name: Come ti chiami?
 not-found: Non trovato
+translate: Tradurre

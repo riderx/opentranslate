@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { getTokenTotalLength, sendTranslateRequest } from '~/composables/openai'
+import { sendTranslateRequest } from '~/composables/openai'
 import type { OpenAiRequest } from '~/composables/openai'
 import { langs } from '~/composables/langs'
 import { tones } from '~/composables/tones'
 
+const { t } = useI18n()
 defineOptions({
   name: 'IndexPage',
 })
@@ -14,13 +15,6 @@ const responseLang = ref('English')
 const keyStore = useApiKeyStore()
 const tone = ref('Formal')
 
-// const router = useRouter()
-// function go() {
-//   if (name.value)
-//     router.push(`/hi/${encodeURIComponent(name.value)}`)
-// }
-
-// const { t } = useI18n()
 function invertText() {
   const tmp = requestLang.value === 'auto' ? 'English' : requestLang.value
   requestLang.value = responseLang.value
@@ -29,8 +23,11 @@ function invertText() {
   requestText.value = responseText.value
   responseText.value = tmp2
 }
-const tokenLenght = computed(() => getTokenTotalLength(requestText.value))
+const tokenLenght = computed(() => getTokenLength(requestText.value))
 
+function copyToClipboard() {
+  navigator.clipboard.writeText(responseText.value)
+}
 async function translateText() {
   const request: OpenAiRequest = {
     lang_from: requestLang.value,
@@ -51,7 +48,7 @@ async function translateText() {
         <div class="flex flex-1 items-start">
           <select v-model="requestLang" class="mb-4 bg-transparent p-2 md:mb-0 md:mr-2 md:w-auto dark:text-white">
             <option value="auto">
-              ✨Detect language
+              ✨{{ t('detect-language') }}
             </option>
             <option v-for="lang in langs" :key="lang.code" :value="lang.name">
               {{ lang.emoji }} {{ lang.name }}
@@ -70,18 +67,32 @@ async function translateText() {
         </div>
       </div>
       <div class="grid grid-cols-1 mt-8 gap-4 md:grid-cols-2">
-        <div class="h-1/2-screen flex flex-col">
-          <textarea v-model="requestText" class="w-full flex-grow border border-gray-300 rounded p-2 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
-          <div class="mt-2 text-right text-gray-600 dark:text-gray-300">
-            {{ tokenLenght }} / 8 000
+        <div class="relative h-1/2-screen w-full">
+          <textarea v-model="requestText" maxlength="8000" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
+          <div class="absolute absolute right-2 top-2">
+            <div class="group relative inline-block">
+              <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300">
+                {{ tokenLenght }}
+              </button>
+              <div class="absolute left-0 z-100 mt-2 w-40 border border-gray-900 rounded bg-gray-800 p-2 text-sm text-white opacity-0 dark:border-light-50 group-hover:opacity-100">
+                {{ tokenLenght }} / 7 500 tokens
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="relative h-1/2-screen w-full">
-          <textarea v-model="responseText" class="h-full w-full border border-gray-300 rounded p-2 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Translated text will appear here" readonly />
-          <button class="absolute right-2 top-2 rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300">
-            <div i-lucide-clipboard-copy />
-          </button>
+          <textarea v-model="responseText" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Translated text will appear here" readonly />
+          <div class="absolute absolute right-2 top-2">
+            <div class="group relative inline-block">
+              <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300" @click="copyToClipboard">
+                <div i-lucide-clipboard-copy />
+              </button>
+              <div class="absolute left-0 z-100 mt-2 w-40 border border-gray-900 rounded bg-gray-800 p-2 text-sm text-white opacity-0 dark:border-light-50 group-hover:opacity-100">
+                {{ t('copy-to-clipboard') }}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="fixed bottom-0 right-0 w-full flex-row-reverse items-center md:relative md:flex md:flex-wrap md:justify-between">
@@ -90,16 +101,12 @@ async function translateText() {
             <option v-for="t in tones" :key="t.code" :value="t.name">
               {{ t.emoji }} {{ t.name }}
             </option>
-          <!-- Add more tones here -->
           </select>
           <button class="w-full rounded bg-blue-500 px-4 py-2 text-white md:ml-2 md:w-auto" @click="translateText">
-            Translate
+            {{ t('translate') }}
           </button>
         </div>
       </div>
-      <!-- <button class="fixed bottom-0 right-0 w-full rounded bg-blue-500 px-4 py-2 text-white md:hidden">
-        Translate
-      </button> -->
     </div>
   </div>
 </template>

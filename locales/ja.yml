@@ -5,9 +5,12 @@ button:
   home: ホーム
   toggle_dark: ダークモード切り替え
   toggle_langs: 言語切り替え
+copy-to-clipboard: クリップボードにコピー
+detect-language: 言語を検出
 intro:
   desc: 固執された Vite スターターテンプレート
   dynamic-route: 動的ルートのデモ
   hi: こんにちは、{name}!
   whats-your-name: 君の名は。
 not-found: 見つかりませんでした
+translate: 翻訳

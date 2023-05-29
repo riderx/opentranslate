@@ -5,10 +5,13 @@ button:
   home: Accueil
   toggle_dark: Basculer en mode sombre
   toggle_langs: Changer de langue
+copy-to-clipboard: Copier dans le presse-papier
+detect-language: Détecter la langue
 intro:
+  aka: Aussi connu sous le nom de
   desc: Exemple d'application Vite
   dynamic-route: Démo de route dynamique
   hi: Salut, {name}!
-  aka: Aussi connu sous le nom de
   whats-your-name: Comment t'appelles-tu ?
 not-found: Page non trouvée
+translate: Traduire

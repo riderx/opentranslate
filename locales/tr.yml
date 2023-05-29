@@ -5,10 +5,13 @@ button:
   home: Anasayfa
   toggle_dark: Karanlık modu değiştir
   toggle_langs: Dilleri değiştir
+copy-to-clipboard: Panoya kopyala
+detect-language: Dili algıla
 intro:
+  aka: Ayrıca şöyle bilinir
   desc: Görüşlü Vite Başlangıç Şablonu
   dynamic-route: Dinamik rota demosu
   hi: Merhaba, {name}!
-  aka: Ayrıca şöyle bilinir
   whats-your-name: Adınız nedir?
 not-found: Bulunamadı
+translate: Çevirmek
