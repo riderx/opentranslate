@@ -1,0 +1,17 @@
+<template>
+  <svg width="512" class="h-10 w-10 stroke-white" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <g id="bubbleleft">
+      <path id="Path" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M 174 191 C 203.095612 191.094727 202 191 202 191" />
+      <path id="path1" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M 175 211 L 222 211" />
+      <path id="path2" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M 174 230 L 218 230" />
+      <path id="path3" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M 259 204 C 259.357758 204.886993 259.055969 188.643005 259 182 C 258.870483 166.625946 254.355225 158.058777 239 158 C 220.212097 157.928101 193.624664 157.983337 173 158 C 162.038254 158.00885 151.110214 165.444733 150 178 C 149.81955 187.447052 149 231 149 231 C 149 231 148.584595 243.615479 166 260 C 157.394196 279.227844 146 304 146 304 L 202 283" />
+    </g>
+    <g id="bubbleright">
+      <path id="path4" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M 362 368 C 362 368 354.911163 355.088379 344 330 C 378.563202 303.430969 375.6492 276.346161 375 265 C 374.007904 247.661011 358.05368 201.28125 303 203 C 256.825745 204.441528 232.358063 240.622589 231 275 C 229.641937 309.377411 256.122314 337.701843 308 339 C 329.451447 346.579926 362 368 362 368 Z" />
+      <path id="path5" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M 254 264 L 344 264" />
+      <path id="path6" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M 258 283 L 342 283" />
+      <path id="path7" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M 321 299 L 322 298" />
+    </g>
+    <path id="Rounded-Rectangle" fill="none" stroke="currentColor" stroke-width="10" d="M 87 385 C 87 407.0914 104.908607 425 127 425 L 386 425 C 408.0914 425 426 407.0914 426 385 L 426 127 C 426 104.9086 408.0914 87 386 87 L 127 87 C 104.908607 87 87 104.9086 87 127 Z" />
+  </svg>
+</template>
