@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { sendTranslateRequest } from '~/composables/openai'
+import { getTokenTotalLength, sendTranslateRequest } from '~/composables/openai'
 import type { OpenAiRequest } from '~/composables/openai'
 import { langs } from '~/composables/langs'
 import { tones } from '~/composables/tones'
@@ -12,9 +12,7 @@ const responseText = ref('')
 const requestLang = ref('auto')
 const responseLang = ref('English')
 const keyStore = useApiKeyStore()
-const tone = ref('')
-// const user = useUserStore()
-// const name = ref(user.savedName)
+const tone = ref('Formal')
 
 // const router = useRouter()
 // function go() {
@@ -31,6 +29,7 @@ function invertText() {
   requestText.value = responseText.value
   responseText.value = tmp2
 }
+const tokenLenght = computed(() => getTokenTotalLength(requestText.value))
 
 async function translateText() {
   const request: OpenAiRequest = {
@@ -74,7 +73,7 @@ async function translateText() {
         <div class="h-1/2-screen flex flex-col">
           <textarea v-model="requestText" class="w-full flex-grow border border-gray-300 rounded p-2 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
           <div class="mt-2 text-right text-gray-600 dark:text-gray-300">
-            {{ requestText.length }} characters
+            {{ tokenLenght }} / 8 000
           </div>
         </div>
 
