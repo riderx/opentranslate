@@ -14,6 +14,7 @@ intro:
   hi: Hi, {name}!
   whats-your-name: Wie heißt du?
 not-found: Nicht gefunden
+please-enter-your-api-key: Bitte geben Sie zuerst einen API-Schlüssel ein
 something-went-wrong-: Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal
 support: Unterstützung
 translate: Übersetzen

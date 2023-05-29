@@ -14,6 +14,7 @@ intro:
   hi: مرحبا {name}
   whats-your-name: ما إسمك؟
 not-found: صفحة غير موجودة
+please-enter-your-api-key: الرجاء إدخال apikey أولاً
 something-went-wrong-: هناك شئ خاطئ، يرجى المحاولة فى وقت لاحق
 support: يدعم
 translate: يترجم

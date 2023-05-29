@@ -14,6 +14,7 @@ intro:
   hi: 你好，{name}
   whats-your-name: 输入你的名字
 not-found: 未找到页面
+please-enter-your-api-key: 请先输入一个apikey
 something-went-wrong-: 发生错误。请稍后再试
 support: 支持
 translate: 翻译

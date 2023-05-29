@@ -34,6 +34,10 @@ function copyToClipboard() {
   toast.success(t('copied-to-clipboard'))
 }
 async function translateText() {
+  if (!keyStore.savedKey) {
+    toast.error(t('please-enter-your-api-key'))
+    return
+  }
   const request: OpenAiRequest = {
     lang_from: requestLang.value,
     lang_to: responseLang.value,

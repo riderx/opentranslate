@@ -15,6 +15,7 @@ intro:
   hi: Hi, {name}!
   whats-your-name: What's your name?
 not-found: Not found
+please-enter-your-api-key: Please enter an apikey first
 something-went-wrong-: Something went wrong, please try again later
 support: Support
 translate: Translate

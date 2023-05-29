@@ -14,6 +14,7 @@ intro:
   hi: Halo, {name}!
   whats-your-name: Siapa nama anda?
 not-found: Tidak ditemukan
+please-enter-your-api-key: Masukkan apikey terlebih dahulu
 something-went-wrong-: Ada yang tidak beres, coba lagi nanti
 support: Mendukung
 translate: Menerjemahkan

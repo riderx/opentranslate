@@ -14,6 +14,7 @@ intro:
   hi: Assalomu alaykum, {name}!
   whats-your-name: Ismingiz nima?
 not-found: Topilmadi
+please-enter-your-api-key: Iltimos, avval apikey kiriting
 something-went-wrong-: Nimadir xato ketdi, keyinroq qayta urinib ko‘ring
 support: Qo'llab-quvvatlash
 translate: Tarjima
