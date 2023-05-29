@@ -29,7 +29,6 @@ export const tones = [
   { name: 'Romantic', code: 'romantic', emoji: '😍' },
   { name: 'Sad', code: 'sad', emoji: '😢' },
   { name: 'Sarcastic', code: 'sarcastic', emoji: '🙄' },
-  { name: 'Sarcastic', code: 'sarcastic', emoji: '🙄' },
   { name: 'Smart', code: 'smart', emoji: '🤓' },
   { name: 'Snarky', code: 'snarky', emoji: '🤨' },
   { name: 'Trendy', code: 'trendy', emoji: '👗' },
