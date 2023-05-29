@@ -1,6 +1,7 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
 import { useStorage } from '@vueuse/core'
 
+const tokenPriceBase = 0.06
 export const useApiKeyStore = defineStore('apikey', () => {
   /**
    * Current name of the user.
@@ -18,13 +19,11 @@ export const useApiKeyStore = defineStore('apikey', () => {
   }
   // 8K context $0.03 / 1K tokens $0.06 / 1K tokens
   const tokenPrice = computed(() => {
-    const tokenPrice = 0.06
-    const tokenUsagePrice = tokenUsage.value * tokenPrice / 1000
+    const tokenUsagePrice = tokenUsage.value * tokenPriceBase / 1000
     return tokenUsagePrice
   })
   const tokenPromptPrice = computed(() => {
-    const tokenPrice = 0.03
-    const tokenUsagePrice = tokenUsagePrompt.value * tokenPrice / 1000
+    const tokenUsagePrice = tokenUsagePrompt.value * tokenPriceBase / 1000
     return tokenUsagePrice
   })
 
