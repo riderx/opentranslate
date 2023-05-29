@@ -46,6 +46,8 @@ export async function loadLanguageAsync(lang: string): Promise<Locale> {
 
 export const install: UserModule = ({ app }) => {
   app.use(i18n)
-  const lang = useStorage('lang', usePreferredLanguages().value[0])
+  const navLang = useNavigatorLanguage().language.value
+  const navLangCut = navLang ? navLang.split('-')[0] : 'en'
+  const lang = useStorage('lang', navLangCut)
   loadLanguageAsync(lang.value)
 }
