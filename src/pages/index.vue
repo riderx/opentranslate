@@ -103,7 +103,7 @@ async function translateText() {
             </option>
           </select>
           <button class="w-full rounded bg-blue-500 px-4 py-2 text-white md:ml-2 md:w-auto" @click="translateText">
-            {{ t('translate') }}
+            🌏 {{ t('translate') }}
           </button>
         </div>
       </div>
