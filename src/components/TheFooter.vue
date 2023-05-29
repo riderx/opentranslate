@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { openChat } from '~/composables/crisp'
 import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
 
 const { t, locale } = useI18n()
@@ -24,6 +25,10 @@ async function toggleLocales() {
 
     <a icon-btn :title="t('button.toggle_langs')" @click="toggleLocales()">
       <div i-carbon-language />
+    </a>
+
+    <a icon-btn :title="t('support')" @click="openChat()">
+      <div i-lucide-help-circle />
     </a>
 
     <RouterLink icon-btn to="/about" :title="t('button.about')">

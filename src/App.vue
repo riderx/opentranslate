@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useCrisp } from './composables/crisp'
 import { usePlausible } from './composables/plausible'
 
 // https://github.com/vueuse/head
@@ -22,6 +23,7 @@ useHead({
   ],
 })
 usePlausible('opentranslate.app')
+useCrisp('775a71ae-b8fd-4f24-9ce7-84ce4d0356b6')
 </script>
 
 <template>

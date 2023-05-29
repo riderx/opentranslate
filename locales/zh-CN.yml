@@ -14,4 +14,5 @@ intro:
   hi: 你好，{name}
   whats-your-name: 输入你的名字
 not-found: 未找到页面
+support: 支持
 translate: 翻译
