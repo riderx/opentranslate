@@ -1,7 +1,6 @@
 export const tones = [
   { name: 'Angry', code: 'angry', emoji: '😡' },
   { name: 'Caring', code: 'caring', emoji: '🤗' },
-  { name: 'Caring', code: 'caring', emoji: '🤗' },
   { name: 'Casual', code: 'casual', emoji: '👕' },
   { name: 'Cheerful', code: 'cheerful', emoji: '😄' },
   { name: 'Coarse', code: 'coarse', emoji: '🤬' },
@@ -19,7 +18,6 @@ export const tones = [
   { name: 'Irreverent', code: 'irreverent', emoji: '🤫' },
   { name: 'Matter-of-fact', code: 'matter-of-fact', emoji: '🤔' },
   { name: 'Nostalgic', code: 'nostalgic', emoji: '👴' },
-  { name: 'Passionate', code: 'passionate', emoji: '😘' },
   { name: 'Passionate', code: 'passionate', emoji: '😘' },
   { name: 'Playful', code: 'playful', emoji: '🤡' },
   { name: 'Professional', code: 'professional', emoji: '👔' },
