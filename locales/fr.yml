@@ -1,3 +1,4 @@
+all-costs-are: Tous les frais sont
 button:
   about: À propos
   back: Retour
@@ -5,17 +6,50 @@ button:
   home: Accueil
   toggle_dark: Basculer en mode sombre
   toggle_langs: Changer de langue
+close: Fermer
 copy-to-clipboard: Copier dans le presse-papier
+cost-associated-with: Le coût associé à un chat inclut le coût symbolique de la traduction.
+dashboard: tableau de bord
 detect-language: Détecter la langue
+each-model-has-its-o: >-
+  Chaque modèle a sa propre tarification, chaque type de jetons dans chaque
+  modèle a également sa propre tarification.
+enter-api-key: Entrez la clé API
+enter-your-api-key: Entrez votre clé API
+estimated: estimé
+for-the-most-accurat: pour le coût le plus précis de votre clé API.
+how-is-the-cost-calc: Comment le coût est-il calculé ?
 intro:
   aka: Aussi connu sous le nom de
   desc: Exemple d'application Vite
   dynamic-route: Démo de route dynamique
   hi: Salut, {name}!
   whats-your-name: Comment t'appelles-tu ?
+is-enabled-we-will-w: |-
+  est autorisé. 
+  Nous travaillerons bientôt à améliorer cela.
+learn-more-about-ope: >-
+  En savoir plus sur le modèle, les jetons et la longueur du contexte d'OpenAI
+  ici.
 not-found: Page non trouvée
 please-enter-text-to-translate: Veuillez entrer un texte à traduire
 please-enter-your-api-key: Veuillez d'abord saisir une clé API
+please-refer-to-your: veuillez vous référer à votre
+public-pricing-of-op: tarification publique de l'API d'OpenAI
+reset-usage-data: Réinitialiser les données d'utilisation
+see-more-info-below: Voir plus d'informations ci-dessous
+some-enhanced-featur: "Certaines fonctionnalités améliorées d'OpenTranslate augmenteront votre utilisation de jetons. \nLes fonctionnalités améliorées incluent\_: le ton de la voix, le téléchargement de documents, etc. Le nombre de jetons utilisés dépend de la longueur de votre document."
 something-went-wrong-: Quelque chose c'est mal passé. Merci d'essayer plus tard
+streaming-response: réponse en continu
 support: Soutien
+the-cost-is-calculat: Le coût est calculé en fonction du
+token-usage-report: Rapport d'utilisation des jetons
+token-usages-are-not: Les utilisations des jetons ne sont pas enregistrées lorsque
+tokens-used-for-prom: Jetons utilisés pour l'invite
+tokens-used-for-tran: Jetons utilisés pour la traduction
+total-token-usage: Utilisation totale des jetons
 translate: Traduire
+works-only-with-gpt-: Fonctionne uniquement avec le modèle GPT-4.
+your-api-key-is-stor: >-
+  Votre clé API est stockée localement sur votre navigateur et n'est jamais
+  envoyée ailleurs.

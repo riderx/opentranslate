@@ -1,3 +1,4 @@
+all-costs-are: すべての費用は、
 button:
   about: これは？
   back: 戻る
@@ -5,16 +6,45 @@ button:
   home: ホーム
   toggle_dark: ダークモード切り替え
   toggle_langs: 言語切り替え
+close: 近い
 copy-to-clipboard: クリップボードにコピー
+cost-associated-with: チャットに関連するコストには、翻訳にかかるトークンのコストが含まれます。
+dashboard: ダッシュボード
 detect-language: 言語を検出
+each-model-has-its-o: 各モデルには独自の価格があり、各モデルの各タイプのトークンにも独自の価格が設定されています。
+enter-api-key: APIキーを入力してください
+enter-your-api-key: API キーを入力してください
+estimated: 推定
+for-the-most-accurat: API キーの最も正確なコストを確認します。
+how-is-the-cost-calc: コストはどのように計算されますか?
 intro:
   desc: 固執された Vite スターターテンプレート
   dynamic-route: 動的ルートのデモ
   hi: こんにちは、{name}!
   whats-your-name: 君の名は。
+is-enabled-we-will-w: |-
+  有効になっています。
+  すぐに改善に取り組みます。
+learn-more-about-ope: OpenAI のモデル、トークン、コンテキストの長さの詳細については、こちらをご覧ください。
 not-found: 見つかりませんでした
 please-enter-text-to-translate: 翻訳するテキストを入力してください
 please-enter-your-api-key: 最初に apikey を入力してください
+please-refer-to-your: を参照してください
+public-pricing-of-op: OpenAI の API の公開価格
+reset-usage-data: 使用量データのリセット
+see-more-info-below: 詳細については以下をご覧ください
+some-enhanced-featur: |-
+  OpenTranslate の一部の拡張機能により、トークンの使用量が増加します。
+  強化された機能には、声のトーン、ドキュメントのアップロードなどが含まれます。使用されるトークンの量はドキュメントの長さによって異なります。
 something-went-wrong-: 何かが間違っています。後でもう一度試してください
+streaming-response: ストリーミング応答
 support: サポート
+the-cost-is-calculat: コストは以下に基づいて計算されます。
+token-usage-report: トークン使用状況レポート
+token-usages-are-not: 次の場合、トークンの使用状況は記録されません。
+tokens-used-for-prom: プロンプトに使用されるトークン
+tokens-used-for-tran: 翻訳に使用されるトークン
+total-token-usage: トークンの総使用量
 translate: 翻訳
+works-only-with-gpt-: GPT-4 モデルでのみ動作します。
+your-api-key-is-stor: API キーはブラウザ上でローカルに保存され、他の場所に送信されることはありません。

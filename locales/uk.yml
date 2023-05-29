@@ -1,3 +1,4 @@
+all-costs-are: Всі витрати є
 button:
   about: Про шаблон
   back: Назад
@@ -5,16 +6,51 @@ button:
   home: Головна
   toggle_dark: Переключити темний режим
   toggle_langs: Змінити мову
+close: Закрити
 copy-to-clipboard: Копіювати в буфер обміну
+cost-associated-with: Вартість, пов’язана з чатом, включає символічну вартість перекладу.
+dashboard: панель приладів
 detect-language: Визначити мову
+each-model-has-its-o: >-
+  Кожна модель має власну ціну, кожен тип токенів у кожній моделі також має
+  власну ціну.
+enter-api-key: Введіть ключ API
+enter-your-api-key: Введіть свій ключ API
+estimated: оцінюється
+for-the-most-accurat: для найточнішої вартості вашого ключа API.
+how-is-the-cost-calc: Як розраховується вартість?
 intro:
   desc: Самостійний початковий шаблон Vite
   dynamic-route: Демо динамічного маршруту
   hi: Привіт, {name}!
   whats-your-name: Як тебе звати?
+is-enabled-we-will-w: |-
+  увімкнено. 
+  Невдовзі ми працюватимемо над покращенням цього.
+learn-more-about-ope: Дізнайтеся більше про модель OpenAI, маркери та довжину контексту тут.
 not-found: Не знайдено
 please-enter-text-to-translate: Будь ласка, введіть текст для перекладу
 please-enter-your-api-key: Спочатку введіть apikey
+please-refer-to-your: будь ласка, зверніться до свого
+public-pricing-of-op: публічне встановлення цін на API OpenAI
+reset-usage-data: Скинути дані використання
+see-more-info-below: Дивіться більше інформації нижче
+some-enhanced-featur: >-
+  Деякі розширені функції OpenTranslate збільшать використання вашого маркера. 
+
+  Розширені функції включають: тон голосу, завантаження документа тощо.
+  Кількість використаних токенів залежить від довжини вашого документа.
 something-went-wrong-: Щось пішло не так, спробуйте пізніше
+streaming-response: потокова відповідь
 support: Підтримка
+the-cost-is-calculat: Вартість розраховується виходячи з
+token-usage-report: Звіт про використання маркера
+token-usages-are-not: Використання маркерів не реєструється, коли
+tokens-used-for-prom: Жетони, що використовуються для підказки
+tokens-used-for-tran: Лексеми, що використовуються для перекладу
+total-token-usage: Загальне використання маркера
 translate: Перекласти
+works-only-with-gpt-: Працює тільки з моделлю GPT-4.
+your-api-key-is-stor: >-
+  Ваш ключ API зберігається локально у вашому браузері та ніколи не надсилається
+  нікуди.

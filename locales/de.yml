@@ -1,3 +1,4 @@
+all-costs-are: Alle Kosten sind
 button:
   about: Über
   back: Zurück
@@ -5,17 +6,56 @@ button:
   home: Startseite
   toggle_dark: Dunkelmodus umschalten
   toggle_langs: Sprachen ändern
+close: Schließen
 copy-to-clipboard: In die Zwischenablage kopieren
+cost-associated-with: >-
+  Die mit einem Chat verbundenen Kosten umfassen die Token-Kosten für die
+  Übersetzung.
+dashboard: Armaturenbrett
 detect-language: Sprache erkennen
+each-model-has-its-o: >-
+  Jedes Modell hat seine eigene Preisgestaltung, jede Art von Token in jedem
+  Modell hat auch ihre eigene Preisgestaltung.
+enter-api-key: Geben Sie den API-Schlüssel ein
+enter-your-api-key: Geben Sie Ihren API-Schlüssel ein
+estimated: geschätzt
+for-the-most-accurat: für die genauesten Kosten Ihres API-Schlüssels.
+how-is-the-cost-calc: Wie werden die Kosten berechnet?
 intro:
   aka: Auch bekannt als
   desc: Vite Startvorlage mit Vorlieben
   dynamic-route: Demo einer dynamischen Route
   hi: Hi, {name}!
   whats-your-name: Wie heißt du?
+is-enabled-we-will-w: |-
+  aktiviert. 
+  Wir werden daran arbeiten, dies bald zu verbessern.
+learn-more-about-ope: >-
+  Erfahren Sie hier mehr über das Modell, die Token und die Kontextlänge von
+  OpenAI.
 not-found: Nicht gefunden
 please-enter-text-to-translate: Bitte geben Sie einen zu übersetzenden Text ein
 please-enter-your-api-key: Bitte geben Sie zuerst einen API-Schlüssel ein
+please-refer-to-your: Bitte beziehen Sie sich auf Ihre
+public-pricing-of-op: öffentliche Preisgestaltung der OpenAI-API
+reset-usage-data: Nutzungsdaten zurücksetzen
+see-more-info-below: Weitere Informationen finden Sie weiter unten
+some-enhanced-featur: >-
+  Einige erweiterte Funktionen von OpenTranslate erhöhen Ihre Token-Nutzung. 
+
+  Zu den erweiterten Funktionen gehören: Tonfall, Dokument hochladen usw. Die
+  Anzahl der verwendeten Token hängt von der Länge Ihres Dokuments ab.
 something-went-wrong-: Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal
+streaming-response: Streaming-Antwort
 support: Unterstützung
+the-cost-is-calculat: Die Kosten werden auf der Grundlage der berechnet
+token-usage-report: Token-Nutzungsbericht
+token-usages-are-not: Token-Nutzungen werden nicht erfasst
+tokens-used-for-prom: Für Aufforderungen verwendete Token
+tokens-used-for-tran: Für die Übersetzung verwendete Token
+total-token-usage: Gesamte Token-Nutzung
 translate: Übersetzen
+works-only-with-gpt-: Funktioniert nur mit dem GPT-4-Modell.
+your-api-key-is-stor: >-
+  Ihr API-Schlüssel wird lokal in Ihrem Browser gespeichert und niemals an einen
+  anderen Ort gesendet.

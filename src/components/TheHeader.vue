@@ -2,6 +2,7 @@
 import Logo from './Logo.vue'
 
 const tokenModal = ref(false)
+const keyStore = useApiKeyStore()
 
 async function openKeyModal() {
   tokenModal.value = true
@@ -22,8 +23,12 @@ async function closeModal() {
           </h1>
         </div>
 
-        <button class="rounded bg-gray-600 px-4 py-2 text-white md:ml-2 dark:bg-gray-700" @click="openKeyModal">
+        <button class="flex rounded bg-gray-600 px-4 py-2 text-white md:ml-2 dark:bg-gray-700" @click="openKeyModal">
           🔑 Key
+          <div v-if="keyStore.savedKey" class="ml-2 flex">
+            $ {{ (keyStore.tokenPrice + keyStore.tokenPromptPrice).toFixed(2) }}
+          </div>
+          <div v-else i-lucide-x class="mt-1 text-red" />
         </button>
       </div>
     </div>

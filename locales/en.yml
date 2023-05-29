@@ -1,3 +1,4 @@
+all-costs-are: All costs are
 button:
   about: About
   back: Back
@@ -5,18 +6,49 @@ button:
   home: Home
   toggle_dark: Toggle dark mode
   toggle_langs: Change languages
+close: Close
 copied-to-clipboard: Copied to clipboard
 copy-to-clipboard: Copy to clipboard
+cost-associated-with: Cost associated with a chat includes the token cost for the translation.
+dashboard: dashboard
 detect-language: Detect language
+each-model-has-its-o: >-
+  Each model has its own pricing, each type of tokens in each model also has its
+  own pricing.
+enter-api-key: Enter API Key
+enter-your-api-key: Enter your API key
+estimated: estimated
+for-the-most-accurat: for the most accurate cost of your API key.
+how-is-the-cost-calc: How is the cost calculated?
 intro:
   aka: Also known as
   desc: Opinionated Vite Starter Template
   dynamic-route: Demo of dynamic route
   hi: Hi, {name}!
   whats-your-name: What's your name?
+is-enabled-we-will-w: is enabled. We will work on improving this soon.
+learn-more-about-ope: Learn more about OpenAI's model, tokens, and context length here.
 not-found: Not found
 please-enter-text-to-translate: Please enter a text to translate
 please-enter-your-api-key: Please enter an apikey first
+please-refer-to-your: please refer to your
+public-pricing-of-op: public pricing of OpenAI's API
+recorded-since: Recorded since
+reset-usage-data: Reset Usage Data
+see-more-info-below: See more info below
+some-enhanced-featur: >-
+  Some enhanced features on OpenTranslate will increase your token usage. The
+  enhanced features include: Tone of voice, Upload Document, etc. Amount of
+  tokens used depends on the length of your document.
 something-went-wrong-: Something went wrong, please try again later
+streaming-response: streaming response
 support: Support
+the-cost-is-calculat: The cost is calculated based on the
+token-usage-report: Token Usage Report
+token-usages-are-not: Token usages are not recorded when
+tokens-used-for-prom: Tokens used for promp
+tokens-used-for-tran: Tokens used for translation
+total-token-usage: Total token usage
 translate: Translate
+works-only-with-gpt-: Works only with GPT-4 model.
+your-api-key-is-stor: Your API Key is stored locally on your browser and never sent anywhere else.

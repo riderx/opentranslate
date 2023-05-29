@@ -1,3 +1,4 @@
+all-costs-are: Wszystkie koszty są
 button:
   about: O nas
   back: Wróć
@@ -5,17 +6,52 @@ button:
   home: Strona główna
   toggle_dark: Ustaw tryb nocny
   toggle_langs: Zmień język
+close: Zamknąć
 copy-to-clipboard: Skopiuj do schowka
+cost-associated-with: Koszt związany z czatem obejmuje symboliczny koszt tłumaczenia.
+dashboard: panel
 detect-language: Wykryj język
+each-model-has-its-o: >-
+  Każdy model ma swój własny cennik, każdy rodzaj tokenów w każdym modelu ma
+  również swój własny cennik.
+enter-api-key: Wprowadź klucz API
+enter-your-api-key: Wprowadź swój klucz API
+estimated: szacowany
+for-the-most-accurat: aby uzyskać jak najdokładniejszy koszt klucza API.
+how-is-the-cost-calc: Jak obliczany jest koszt?
 intro:
   aka: Znany też jako
   desc: Opiniowany szablon startowy Vite
   dynamic-route: Demonstracja dynamicznego route
   hi: Cześć, {name}!
   whats-your-name: Jak masz na imię?
+is-enabled-we-will-w: |-
+  jest włączony. 
+  Wkrótce będziemy pracować nad poprawą tego.
+learn-more-about-ope: Dowiedz się więcej o modelu OpenAI, tokenach i długości kontekstu tutaj.
 not-found: Nie znaleziono
 please-enter-text-to-translate: Wprowadź tekst do przetłumaczenia
 please-enter-your-api-key: Najpierw wprowadź klucz apikey
+please-refer-to-your: proszę odnieść się do swojego
+public-pricing-of-op: publiczne wyceny API OpenAI
+reset-usage-data: Zresetuj dane użytkowania
+see-more-info-below: Zobacz więcej informacji poniżej
+some-enhanced-featur: >-
+  Niektóre ulepszone funkcje OpenTranslate zwiększą wykorzystanie tokena. 
+
+  Ulepszone funkcje obejmują: Ton głosu, Prześlij dokument itp. Ilość użytych
+  tokenów zależy od długości dokumentu.
 something-went-wrong-: Coś poszło nie tak. Proszę spróbować później
+streaming-response: odpowiedź strumieniowa
 support: Wsparcie
+the-cost-is-calculat: Koszt obliczany jest na podstawie art
+token-usage-report: Raport użycia tokena
+token-usages-are-not: Użycie tokena nie jest rejestrowane, kiedy
+tokens-used-for-prom: Tokeny używane do podpowiedzi
+tokens-used-for-tran: Tokeny używane do tłumaczenia
+total-token-usage: Całkowite użycie tokena
 translate: Tłumaczyć
+works-only-with-gpt-: Działa tylko z modelem GPT-4.
+your-api-key-is-stor: >-
+  Twój klucz API jest przechowywany lokalnie w Twojej przeglądarce i nigdy nie
+  jest wysyłany nigdzie indziej.

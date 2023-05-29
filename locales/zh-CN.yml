@@ -1,3 +1,4 @@
+all-costs-are: 所有费用都是
 button:
   about: 关于
   back: 返回
@@ -5,17 +6,46 @@ button:
   home: 首页
   toggle_dark: 切换深色模式
   toggle_langs: 切换语言
+close: 关闭
 copy-to-clipboard: 复制到剪贴板
+cost-associated-with: 与聊天相关的成本包括翻译的代币成本。
+dashboard: 仪表板
 detect-language: 检测语言
+each-model-has-its-o: 每个模型都有自己的定价，每个模型中的每种代币也有自己的定价。
+enter-api-key: 输入 API 密钥
+enter-your-api-key: 输入您的 API 密钥
+estimated: 估计的
+for-the-most-accurat: 以获得最准确的 API 密钥成本。
+how-is-the-cost-calc: 成本如何计算？
 intro:
   aka: 也叫
   desc: 固执己见的 Vite 项目模板
   dynamic-route: 动态路由演示
   hi: 你好，{name}
   whats-your-name: 输入你的名字
+is-enabled-we-will-w: |-
+  已启用。
+  我们将尽快改进这一点。
+learn-more-about-ope: 在此处详细了解 OpenAI 的模型、令牌和上下文长度。
 not-found: 未找到页面
 please-enter-text-to-translate: 请输入要翻译的文字
 please-enter-your-api-key: 请先输入一个apikey
+please-refer-to-your: 请参考你的
+public-pricing-of-op: OpenAI API 的公开定价
+reset-usage-data: 重置使用数据
+see-more-info-below: 查看下面的更多信息
+some-enhanced-featur: |-
+  OpenTranslate 的一些增强功能会增加您的令牌使用量。
+  增强功能包括：语音语调、上传文档等。使用的令牌数量取决于文档的长度。
 something-went-wrong-: 发生错误。请稍后再试
+streaming-response: 流式响应
 support: 支持
+the-cost-is-calculat: 成本是根据
+token-usage-report: 令牌使用报告
+token-usages-are-not: 不记录令牌使用情况
+tokens-used-for-prom: 用于提示的标记
+tokens-used-for-tran: 用于翻译的令牌
+total-token-usage: 令牌总使用量
 translate: 翻译
+works-only-with-gpt-: 仅适用于 GPT-4 模型。
+your-api-key-is-stor: 您的 API 密钥存储在您的浏览器本地，绝不会发送到其他任何地方。

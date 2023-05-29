@@ -1,3 +1,4 @@
+all-costs-are: Barcha xarajatlar
 button:
   about: Haqida
   back: Orqaga
@@ -5,17 +6,53 @@ button:
   home: Bosh sahifa
   toggle_dark: Qorong‘i rejimga o‘tish
   toggle_langs: Tilni o‘zgartirish
+close: Yopish
 copy-to-clipboard: Buferga nusxalash
+cost-associated-with: Suhbat bilan bog'liq xarajat tarjima uchun token narxini o'z ichiga oladi.
+dashboard: asboblar paneli
 detect-language: Tilni aniqlash
+each-model-has-its-o: >-
+  Har bir model o'z narxiga ega, har bir modeldagi tokenlarning har bir turi ham
+  o'z narxiga ega.
+enter-api-key: API kalitini kiriting
+enter-your-api-key: API kalitingizni kiriting
+estimated: taxmin qilingan
+for-the-most-accurat: API kalitingizning eng aniq narxi uchun.
+how-is-the-cost-calc: Xarajat qanday hisoblanadi?
 intro:
   aka: shuningdek
   desc: O‘ylangan boshlang‘ich Vite shabloni
   dynamic-route: Dynamic route demo'si
   hi: Assalomu alaykum, {name}!
   whats-your-name: Ismingiz nima?
+is-enabled-we-will-w: |-
+  yoqilgan. 
+  Tez orada buni yaxshilash ustida ishlaymiz.
+learn-more-about-ope: OpenAI modeli, tokenlari va kontekst uzunligi haqida koʻproq bilib oling.
 not-found: Topilmadi
 please-enter-text-to-translate: Iltimos, tarjima qilish uchun matn kiriting
 please-enter-your-api-key: Iltimos, avval apikey kiriting
+please-refer-to-your: Iltimos, o'zingizga murojaat qiling
+public-pricing-of-op: OpenAI API ning davlat narxlari
+reset-usage-data: Foydalanish ma'lumotlarini tiklash
+see-more-info-below: Qoʻshimcha maʼlumotni quyida koʻring
+some-enhanced-featur: >-
+  OpenTranslate’dagi ba’zi yaxshilangan xususiyatlar tokendan foydalanishni
+  oshiradi. 
+
+  Kengaytirilgan funksiyalarga quyidagilar kiradi: Ovoz ohangi, Hujjatni yuklash
+  va h.k. Ishlatilgan tokenlar miqdori hujjatingiz uzunligiga bogʻliq.
 something-went-wrong-: Nimadir xato ketdi, keyinroq qayta urinib ko‘ring
+streaming-response: oqimli javob
 support: Qo'llab-quvvatlash
+the-cost-is-calculat: Xarajatlar asosida hisoblanadi
+token-usage-report: Token foydalanish hisoboti
+token-usages-are-not: Tokendan foydalanish qachon qayd etilmaydi
+tokens-used-for-prom: Tezkor uchun ishlatiladigan tokenlar
+tokens-used-for-tran: Tarjima uchun ishlatiladigan tokenlar
+total-token-usage: Umumiy tokendan foydalanish
 translate: Tarjima
+works-only-with-gpt-: Faqat GPT-4 modeli bilan ishlaydi.
+your-api-key-is-stor: >-
+  Sizning API kalitingiz brauzeringizda mahalliy sifatida saqlanadi va hech
+  qachon boshqa joyga yuborilmaydi.

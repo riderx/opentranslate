@@ -1,3 +1,4 @@
+all-costs-are: ყველა ხარჯია
 button:
   about: შესახებ
   back: უკან
@@ -5,17 +6,53 @@ button:
   home: მთავარი
   toggle_dark: გადართე მუქი რეჟიმი
   toggle_langs: ენის შეცვლა
+close: დახურვა
 copy-to-clipboard: კოპირება ბუფერში
+cost-associated-with: ჩატთან დაკავშირებული ღირებულება მოიცავს თარგმანის სიმბოლურ ღირებულებას.
+dashboard: დაფა
 detect-language: ენის ამოცნობა
+each-model-has-its-o: >-
+  თითოეულ მოდელს აქვს თავისი ფასი, თითოეულ მოდელში ტოკენის თითოეულ ტიპს ასევე
+  აქვს საკუთარი ფასი.
+enter-api-key: შეიყვანეთ API გასაღები
+enter-your-api-key: შეიყვანეთ თქვენი API გასაღები
+estimated: შეაფასა
+for-the-most-accurat: თქვენი API გასაღების ყველაზე ზუსტი ღირებულებისთვის.
+how-is-the-cost-calc: როგორ არის გათვლილი ღირებულება?
 intro:
   aka: ასევე ცნობილი როგორც
   desc: Opinionated Vite Starter Template
   dynamic-route: დინამიური როუტინგის დემო
   hi: გამარჯობა, {name}!
   whats-your-name: რა გქვია?
+is-enabled-we-will-w: |-
+  ჩართულია. 
+  ჩვენ მალე ვიმუშავებთ ამის გაუმჯობესებაზე.
+learn-more-about-ope: შეიტყვეთ მეტი OpenAI-ის მოდელის, ნიშნების და კონტექსტის სიგრძის შესახებ აქ.
 not-found: ვერ მოიძებნა
 please-enter-text-to-translate: გთხოვთ, შეიყვანოთ ტექსტი სათარგმნად
 please-enter-your-api-key: გთხოვთ, ჯერ შეიყვანოთ apikey
+please-refer-to-your: გთხოვთ მიმართოთ თქვენს
+public-pricing-of-op: OpenAI-ის API-ს საჯარო ფასი
+reset-usage-data: გამოყენების მონაცემების გადატვირთვა
+see-more-info-below: იხილეთ მეტი ინფორმაცია ქვემოთ
+some-enhanced-featur: >-
+  OpenTranslate-ის ზოგიერთი გაუმჯობესებული ფუნქცია გაზრდის თქვენი ტოკენის
+  გამოყენებას. 
+
+  გაუმჯობესებული ფუნქციები მოიცავს: ხმის ტონს, დოკუმენტის ატვირთვას და ა.შ.
+  გამოყენებული ჟეტონების რაოდენობა დამოკიდებულია თქვენი დოკუმენტის სიგრძეზე.
 something-went-wrong-: მოხდა რაღაც შეცდომა, გთხოვთ, სცადოთ მოგვიანებით
+streaming-response: ნაკადის პასუხი
 support: მხარდაჭერა
+the-cost-is-calculat: ღირებულება გამოითვლება საფუძველზე
+token-usage-report: ჟეტონის გამოყენების ანგარიში
+token-usages-are-not: ჟეტონის გამოყენება არ აღირიცხება როდის
+tokens-used-for-prom: ჟეტონები, რომლებიც გამოიყენება პრომპისთვის
+tokens-used-for-tran: თარგმანისთვის გამოყენებული ნიშნები
+total-token-usage: ტოკენის მთლიანი გამოყენება
 translate: თარგმნეთ
+works-only-with-gpt-: მუშაობს მხოლოდ GPT-4 მოდელზე.
+your-api-key-is-stor: >-
+  თქვენი API გასაღები ინახება ადგილობრივად თქვენს ბრაუზერში და არასოდეს
+  იგზავნება სხვაგან.

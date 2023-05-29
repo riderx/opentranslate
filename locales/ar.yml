@@ -1,3 +1,4 @@
+all-costs-are: جميع التكاليف
 button:
   about: حول
   back: رجوع
@@ -5,17 +6,50 @@ button:
   home: الرئيسية
   toggle_dark: التغيير إلى الوضع المظلم
   toggle_langs: تغيير اللغة
+close: يغلق
 copy-to-clipboard: نسخ إلى الحافظة
+cost-associated-with: تتضمن التكلفة المرتبطة بالمحادثة تكلفة الرمز المميز للترجمة.
+dashboard: لوحة القيادة
 detect-language: اكتشاف اللغة
+each-model-has-its-o: >-
+  كل نموذج له أسعاره الخاصة ، ولكل نوع من الرموز المميزة في كل نموذج أسعاره
+  الخاصة.
+enter-api-key: أدخل مفتاح API
+enter-your-api-key: أدخل مفتاح API الخاص بك
+estimated: مُقدَّر
+for-the-most-accurat: للحصول على التكلفة الأكثر دقة لمفتاح API الخاص بك.
+how-is-the-cost-calc: كيف يتم حساب التكلفة؟
 intro:
   aka: معروف أيضا تحت مسمى
   desc: vite مثال لتطبيق
   dynamic-route: عرض لتوجيهات ديناميكية
   hi: مرحبا {name}
   whats-your-name: ما إسمك؟
+is-enabled-we-will-w: |-
+  ممكّن. 
+  سنعمل على تحسين هذا قريبا.
+learn-more-about-ope: تعرف على المزيد حول نموذج OpenAI ورموزه وطول السياق هنا.
 not-found: صفحة غير موجودة
 please-enter-text-to-translate: الرجاء إدخال نص للترجمة
 please-enter-your-api-key: الرجاء إدخال apikey أولاً
+please-refer-to-your: يرجى الرجوع إلى الخاص بك
+public-pricing-of-op: التسعير العام لواجهة برمجة تطبيقات OpenAI
+reset-usage-data: إعادة تعيين بيانات الاستخدام
+see-more-info-below: انظر المزيد من المعلومات أدناه
+some-enhanced-featur: >-
+  ستزيد بعض الميزات المحسّنة في OpenTranslate من استخدام الرمز المميز الخاص بك. 
+
+  تشمل الميزات المحسّنة: نغمة الصوت ، وتحميل المستند ، وما إلى ذلك. يعتمد مقدار
+  الرموز المميزة المستخدمة على طول المستند الخاص بك.
 something-went-wrong-: هناك شئ خاطئ، يرجى المحاولة فى وقت لاحق
+streaming-response: استجابة التدفق
 support: يدعم
+the-cost-is-calculat: يتم احتساب التكلفة على أساس
+token-usage-report: تقرير استخدام الرمز المميز
+token-usages-are-not: لا يتم تسجيل استخدامات الرمز المميز عندما
+tokens-used-for-prom: الرموز المستخدمة في promp
+tokens-used-for-tran: الرموز المستخدمة في الترجمة
+total-token-usage: إجمالي استخدام الرمز المميز
 translate: يترجم
+works-only-with-gpt-: يعمل فقط مع طراز GPT-4.
+your-api-key-is-stor: يتم تخزين مفتاح API الخاص بك محليًا على متصفحك ولا يتم إرساله إلى أي مكان آخر.

@@ -1,3 +1,4 @@
+all-costs-are: Tất cả các chi phí đều
 button:
   about: Về
   back: Quay lại
@@ -5,16 +6,54 @@ button:
   home: Khởi đầu
   toggle_dark: Chuyển đổi chế độ tối
   toggle_langs: Thay đổi ngôn ngữ
+close: Đóng
 copy-to-clipboard: Sao chép vào clipboard
+cost-associated-with: >-
+  Chi phí liên quan đến một cuộc trò chuyện bao gồm chi phí mã thông báo cho bản
+  dịch.
+dashboard: bảng điều khiển
 detect-language: Phát hiện ngôn ngữ
+each-model-has-its-o: >-
+  Mỗi mô hình có giá riêng, mỗi loại mã thông báo trong mỗi mô hình cũng có giá
+  riêng.
+enter-api-key: Nhập khóa API
+enter-your-api-key: Nhập khóa API của bạn
+estimated: ước lượng
+for-the-most-accurat: để biết chi phí chính xác nhất cho khóa API của bạn.
+how-is-the-cost-calc: Chi phí được tính như thế nào?
 intro:
   desc: Ý kiến cá nhân Vite Template để bắt đầu
   dynamic-route: Bản giới thiệu về dynamic route
   hi: Hi, {name}!
   whats-your-name: Tên bạn là gì?
+is-enabled-we-will-w: |-
+  được kích hoạt. 
+  Chúng tôi sẽ làm việc để cải thiện điều này sớm.
+learn-more-about-ope: Tìm hiểu thêm về mô hình, mã thông báo và độ dài ngữ cảnh của OpenAI tại đây.
 not-found: Không tìm thấy
 please-enter-text-to-translate: Vui lòng nhập văn bản để dịch
 please-enter-your-api-key: Vui lòng nhập apikey trước
+please-refer-to-your: xin vui lòng tham khảo của bạn
+public-pricing-of-op: định giá công khai API của OpenAI
+reset-usage-data: Đặt lại dữ liệu sử dụng
+see-more-info-below: Xem thêm thông tin bên dưới
+some-enhanced-featur: >-
+  Một số tính năng nâng cao trên OpenTranslate sẽ tăng mức sử dụng mã thông báo
+  của bạn. 
+
+  Các tính năng nâng cao bao gồm: Giọng nói, Tài liệu tải lên, v.v. Số lượng mã
+  thông báo được sử dụng tùy thuộc vào độ dài tài liệu của bạn.
 something-went-wrong-: Đã xảy ra lỗi, vui lòng thử lại sau
+streaming-response: phản hồi trực tuyến
 support: Ủng hộ
+the-cost-is-calculat: Chi phí được tính toán dựa trên
+token-usage-report: Báo cáo sử dụng mã thông báo
+token-usages-are-not: Việc sử dụng mã thông báo không được ghi lại khi
+tokens-used-for-prom: Mã thông báo được sử dụng để nhắc nhở
+tokens-used-for-tran: Mã thông báo được sử dụng để dịch
+total-token-usage: Tổng mức sử dụng mã thông báo
 translate: Dịch
+works-only-with-gpt-: Chỉ hoạt động với mẫu GPT-4.
+your-api-key-is-stor: >-
+  Khóa API của bạn được lưu trữ cục bộ trên trình duyệt của bạn và không bao giờ
+  được gửi đi bất kỳ nơi nào khác.

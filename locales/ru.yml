@@ -1,3 +1,4 @@
+all-costs-are: Все расходы
 button:
   about: О шаблоне
   back: Назад
@@ -5,16 +6,52 @@ button:
   home: Главная
   toggle_dark: Включить темный режим
   toggle_langs: Сменить язык
+close: Закрывать
 copy-to-clipboard: Скопировать в буфер обмена
+cost-associated-with: Стоимость, связанная с чатом, включает стоимость токена для перевода.
+dashboard: панель приборов
 detect-language: Определить язык
+each-model-has-its-o: >-
+  Каждая модель имеет свою цену, каждый тип токенов в каждой модели также имеет
+  свою цену.
+enter-api-key: Введите API-ключ
+enter-your-api-key: Введите свой API-ключ
+estimated: оцененный
+for-the-most-accurat: для наиболее точной стоимости вашего ключа API.
+how-is-the-cost-calc: Как рассчитывается стоимость?
 intro:
   desc: Самостоятельный начальный шаблон Vite
   dynamic-route: Демо динамического маршрута
   hi: Привет, {name}!
   whats-your-name: Как тебя зовут?
+is-enabled-we-will-w: |-
+  включен. 
+  Мы будем работать над улучшением этого в ближайшее время.
+learn-more-about-ope: Узнайте больше о модели OpenAI, токенах и длине контекста здесь.
 not-found: Не найден
 please-enter-text-to-translate: Пожалуйста, введите текст для перевода
 please-enter-your-api-key: Сначала введите apikey
+please-refer-to-your: пожалуйста, обратитесь к вашему
+public-pricing-of-op: общедоступные цены на API OpenAI
+reset-usage-data: Сбросить данные об использовании
+see-more-info-below: См. дополнительную информацию ниже
+some-enhanced-featur: >-
+  Некоторые расширенные функции OpenTranslate увеличат использование вашего
+  токена. 
+
+  Расширенные функции включают в себя: тон голоса, загрузку документа и т. д.
+  Количество используемых токенов зависит от длины вашего документа.
 something-went-wrong-: Что-то пошло не так. Пожалуйста, повторите попытку позже
+streaming-response: потоковый ответ
 support: Поддерживать
+the-cost-is-calculat: Стоимость рассчитывается исходя из
+token-usage-report: Отчет об использовании токена
+token-usages-are-not: Использование токенов не записывается, когда
+tokens-used-for-prom: Жетоны, используемые для приглашения
+tokens-used-for-tran: Токены, используемые для перевода
+total-token-usage: Общее использование токенов
 translate: Переводить
+works-only-with-gpt-: Работает только с моделью GPT-4.
+your-api-key-is-stor: >-
+  Ваш API-ключ хранится локально в вашем браузере и никогда никуда не
+  отправляется.

@@ -1,3 +1,4 @@
+all-costs-are: 모든 비용은
 button:
   about: 소개
   back: 뒤로가기
@@ -5,16 +6,45 @@ button:
   home: 홈
   toggle_dark: 다크모드 토글
   toggle_langs: 언어 변경
+close: 닫다
 copy-to-clipboard: 클립 보드에 복사
+cost-associated-with: 채팅과 관련된 비용에는 번역에 대한 토큰 비용이 포함됩니다.
+dashboard: 계기반
 detect-language: 언어를 감지
+each-model-has-its-o: 각 모델에는 고유한 가격이 있으며 각 모델의 각 토큰 유형에도 고유한 가격이 있습니다.
+enter-api-key: API 키 입력
+enter-your-api-key: API 키를 입력하세요
+estimated: 추정된
+for-the-most-accurat: API 키의 가장 정확한 비용을 위해.
+how-is-the-cost-calc: 비용은 어떻게 계산되나요?
 intro:
   desc: Vite 애플리케이션 템플릿
   dynamic-route: 다이나믹 라우트 데모
   hi: 안녕, {name}!
   whats-your-name: 이름이 뭐예요?
+is-enabled-we-will-w: |-
+  사용 가능. 
+  우리는 곧 이것을 개선하기 위해 노력할 것입니다.
+learn-more-about-ope: 여기에서 OpenAI의 모델, 토큰 및 컨텍스트 길이에 대해 자세히 알아보세요.
 not-found: 찾을 수 없습니다
 please-enter-text-to-translate: 번역할 텍스트를 입력하세요
 please-enter-your-api-key: apikey를 먼저 입력하세요.
+please-refer-to-your: 당신을 참조하십시오
+public-pricing-of-op: OpenAI API의 공개 가격
+reset-usage-data: 사용 데이터 재설정
+see-more-info-below: 아래에서 더 많은 정보 보기
+some-enhanced-featur: |-
+  OpenTranslate의 일부 향상된 기능은 토큰 사용을 증가시킵니다. 
+  향상된 기능에는 음성 톤, 문서 업로드 등이 포함됩니다. 사용되는 토큰의 양은 문서의 길이에 따라 다릅니다.
 something-went-wrong-: 문제가 발생했습니다. 나중에 다시 시도해 주세요.
+streaming-response: 스트리밍 응답
 support: 지원하다
+the-cost-is-calculat: 비용은 다음을 기준으로 계산됩니다.
+token-usage-report: 토큰 사용 보고서
+token-usages-are-not: 토큰 사용은 기록되지 않습니다.
+tokens-used-for-prom: 프롬프트에 사용되는 토큰
+tokens-used-for-tran: 번역에 사용되는 토큰
+total-token-usage: 총 토큰 사용량
 translate: 번역하다
+works-only-with-gpt-: GPT-4 모델에서만 작동합니다.
+your-api-key-is-stor: API 키는 브라우저에 로컬로 저장되며 다른 곳으로 전송되지 않습니다.

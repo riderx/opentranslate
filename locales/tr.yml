@@ -1,3 +1,4 @@
+all-costs-are: Tüm maliyetler
 button:
   about: Hakkımda
   back: Geri
@@ -5,17 +6,55 @@ button:
   home: Anasayfa
   toggle_dark: Karanlık modu değiştir
   toggle_langs: Dilleri değiştir
+close: Kapalı
 copy-to-clipboard: Panoya kopyala
+cost-associated-with: Bir sohbetle ilişkili maliyet, çeviri için belirteç maliyetini içerir.
+dashboard: Gösterge Paneli
 detect-language: Dili algıla
+each-model-has-its-o: >-
+  Her modelin kendi fiyatı vardır, her modeldeki her token türünün de kendi
+  fiyatı vardır.
+enter-api-key: API Anahtarını Girin
+enter-your-api-key: API anahtarınızı girin
+estimated: tahmini
+for-the-most-accurat: API anahtarınızın en doğru maliyeti için.
+how-is-the-cost-calc: Maliyet nasıl hesaplanır?
 intro:
   aka: Ayrıca şöyle bilinir
   desc: Görüşlü Vite Başlangıç Şablonu
   dynamic-route: Dinamik rota demosu
   hi: Merhaba, {name}!
   whats-your-name: Adınız nedir?
+is-enabled-we-will-w: |-
+  etkin. 
+  Bunu yakında iyileştirmek için çalışacağız.
+learn-more-about-ope: >-
+  OpenAI'nin modeli, belirteçleri ve bağlam uzunluğu hakkında buradan daha fazla
+  bilgi edinin.
 not-found: Bulunamadı
 please-enter-text-to-translate: Lütfen çevrilecek bir metin girin
 please-enter-your-api-key: Lütfen önce bir apikey girin
+please-refer-to-your: lütfen sizinkine bakın
+public-pricing-of-op: OpenAI API'sinin genel fiyatlandırması
+reset-usage-data: Kullanım Verilerini Sıfırla
+see-more-info-below: Aşağıda daha fazla bilgi görün
+some-enhanced-featur: >-
+  OpenTranslate'teki bazı geliştirilmiş özellikler, belirteç kullanımınızı
+  artıracaktır. 
+
+  Gelişmiş özellikler şunları içerir: Ses tonu, Belge Yükle vb. Kullanılan jeton
+  miktarı belgenizin uzunluğuna bağlıdır.
 something-went-wrong-: Bir şeyler yanlış oldu. Lütfen sonra tekrar deneyiniz
+streaming-response: akış yanıtı
 support: Destek
+the-cost-is-calculat: Maliyet esas alınarak hesaplanır
+token-usage-report: Jeton Kullanım Raporu
+token-usages-are-not: Belirteç kullanımları ne zaman kaydedilmez?
+tokens-used-for-prom: Bilgi istemi için kullanılan belirteçler
+tokens-used-for-tran: Çeviri için kullanılan belirteçler
+total-token-usage: Toplam belirteç kullanımı
 translate: Çevirmek
+works-only-with-gpt-: Yalnızca GPT-4 modeliyle çalışır.
+your-api-key-is-stor: >-
+  API Anahtarınız tarayıcınızda yerel olarak saklanır ve asla başka bir yere
+  gönderilmez.

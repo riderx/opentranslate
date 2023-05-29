@@ -1,3 +1,4 @@
+all-costs-are: Semua biaya
 button:
   about: Tentang
   back: Kembali
@@ -5,17 +6,55 @@ button:
   home: Beranda
   toggle_dark: Ubah ke mode gelap
   toggle_langs: Ubah bahasa
+close: Menutup
 copy-to-clipboard: Menyalin ke clipboard
+cost-associated-with: Biaya yang terkait dengan obrolan termasuk biaya token untuk terjemahan.
+dashboard: dasbor
 detect-language: Mendeteksi bahasa
+each-model-has-its-o: >-
+  Setiap model memiliki harganya sendiri, setiap jenis token di setiap model
+  juga memiliki harganya sendiri.
+enter-api-key: Masukkan Kunci API
+enter-your-api-key: Masukkan kunci API Anda
+estimated: diperkirakan
+for-the-most-accurat: untuk biaya kunci API Anda yang paling akurat.
+how-is-the-cost-calc: Bagaimana biaya dihitung?
 intro:
   aka: Juga diketahui sebagai
   desc: Template awal vite
   dynamic-route: Contoh rute dinamik
   hi: Halo, {name}!
   whats-your-name: Siapa nama anda?
+is-enabled-we-will-w: |-
+  diaktifkan. 
+  Kami akan bekerja untuk meningkatkan ini segera.
+learn-more-about-ope: >-
+  Pelajari lebih lanjut tentang model, token, dan panjang konteks OpenAI di
+  sini.
 not-found: Tidak ditemukan
 please-enter-text-to-translate: Masukkan teks untuk diterjemahkan
 please-enter-your-api-key: Masukkan apikey terlebih dahulu
+please-refer-to-your: silakan merujuk ke Anda
+public-pricing-of-op: harga publik API OpenAI
+reset-usage-data: Setel Ulang Data Penggunaan
+see-more-info-below: Lihat info lebih lanjut di bawah ini
+some-enhanced-featur: >-
+  Beberapa fitur yang disempurnakan di OpenTranslate akan meningkatkan
+  penggunaan token Anda. 
+
+  Fitur yang disempurnakan meliputi: Nada suara, Unggah Dokumen, dll. Jumlah
+  token yang digunakan bergantung pada panjang dokumen Anda.
 something-went-wrong-: Ada yang tidak beres, coba lagi nanti
+streaming-response: tanggapan streaming
 support: Mendukung
+the-cost-is-calculat: Biaya dihitung berdasarkan
+token-usage-report: Laporan Penggunaan Token
+token-usages-are-not: Penggunaan token tidak dicatat kapan
+tokens-used-for-prom: Token yang digunakan untuk prompt
+tokens-used-for-tran: Token yang digunakan untuk terjemahan
+total-token-usage: Total penggunaan token
 translate: Menerjemahkan
+works-only-with-gpt-: Bekerja hanya dengan model GPT-4.
+your-api-key-is-stor: >-
+  Kunci API Anda disimpan secara lokal di browser Anda dan tidak pernah dikirim
+  ke tempat lain.
