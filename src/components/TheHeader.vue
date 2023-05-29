@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
+const tokenModal = ref(false)
 
-const { t, locale } = useI18n()
-
-async function toggleLocales() {
-  // change to some real logic
-  const locales = availableLocales
-  const newLocale = locales[(locales.indexOf(locale.value) + 1) % locales.length]
-  await loadLanguageAsync(newLocale)
-  locale.value = newLocale
+async function openKeyModal() {
+  tokenModal.value = true
+}
+async function closeModal() {
+  tokenModal.value = false
 }
 </script>
 
@@ -19,7 +16,11 @@ async function toggleLocales() {
         <h1 class="text-xl font-bold text-gray-800 dark:text-white">
           OpenTranslate
         </h1>
+        <button class="rounded bg-gray-600 px-4 py-2 text-white md:ml-2 dark:bg-gray-700" @click="openKeyModal">
+          🔑 Key
+        </button>
       </div>
     </div>
+    <TheModal :open="tokenModal" @close="closeModal" />
   </div>
 </template>
