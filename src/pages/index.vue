@@ -92,7 +92,7 @@ async function translateText() {
           <textarea v-model="requestText" maxlength="7500" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
           <div class="absolute absolute right-2 top-2">
             <client-only>
-              <Popper>
+              <Popper :hover="true">
                 <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300">
                   {{ tokenLenght }}
                 </button>
@@ -110,7 +110,7 @@ async function translateText() {
           <textarea v-model="responseText" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Translated text will appear here" readonly />
           <div class="absolute absolute right-2 top-2">
             <client-only>
-              <Popper>
+              <Popper :hover="true">
                 <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300" @click="copyToClipboard()">
                   <div i-lucide-clipboard-copy />
                 </button>
@@ -124,7 +124,7 @@ async function translateText() {
           </div>
         </div>
       </div>
-      <div class="absolute bottom-0 right-0 w-full flex-row-reverse items-center md:relative md:flex md:flex-wrap md:justify-between">
+      <div class="safe-areas absolute bottom-0 right-0 z-10 w-full flex-row-reverse items-center bg-white pt-2 md:relative md:flex md:flex-wrap md:justify-between dark:bg-gray-800">
         <div class="flex items-center md:flex-wrap md:justify-between">
           <select v-model="tone" class="w-auto bg-transparent px-4 py-2 md:ml-2 md:mt-0 md:w-auto dark:text-white">
             <option v-for="t in tones" :key="t.code" :value="t.name">
