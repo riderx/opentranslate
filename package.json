@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "preview-https": "serve dist",
     "test": "vitest",
+    "capacitor-assets": "npx @capacitor/assets generate --assetPath public --iconBackgroundColor '#1F2937' --iconBackgroundColorDark '#1F2937' --splashBackgroundColor '#111827' --splashBackgroundColorDark '#1F2937' --logoSplashScale 0.3",
     "test:e2e": "cypress open",
     "test:unit": "vitest",
     "typecheck": "vue-tsc --noEmit",

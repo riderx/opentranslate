@@ -7,7 +7,7 @@ export const useApiKeyStore = defineStore('apikey', () => {
    * Current name of the user.
    */
   const savedKey = useStorage('apikey', '')
-  const model = useStorage('model', 'gpt-3')
+  const model = useStorage('model', 'gpt-4')
   const tokenUsage = useStorage('tokenUsage', 0)
   const tokenUsagePrompt = useStorage('tokenUsagePrompt', 0)
   const tokenUsageDate = useStorage('tokenDate', new Date().getTime())
