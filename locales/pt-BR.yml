@@ -26,7 +26,7 @@ intro:
   hi: Olá, {name}!
   whats-your-name: Qual é o seu nome?
 is-enabled-we-will-w: |-
-  está ativado. 
+  está ativado.
   Vamos trabalhar para melhorar isso em breve.
 learn-more-about-ope: >-
   Saiba mais sobre o modelo, os tokens e o comprimento do contexto do OpenAI
@@ -39,18 +39,18 @@ public-pricing-of-op: preços públicos da API da OpenAI
 reset-usage-data: Redefinir dados de uso
 see-more-info-below: Veja mais informações abaixo
 some-enhanced-featur: >-
-  Alguns recursos aprimorados no OpenTranslate aumentarão o uso do token. 
+  Alguns recursos aprimorados no OpenTranslate aumentarão o uso do token.
 
   Os recursos aprimorados incluem: tom de voz, upload de documento, etc. A
-  quantidade de tokens usados ​​depende do tamanho do seu documento.
+  quantidade de tokens usados depende do tamanho do seu documento.
 something-went-wrong-: Algo deu errado, tente novamente mais tarde
 streaming-response: resposta de streaming
 support: Apoiar
 the-cost-is-calculat: O custo é calculado com base no
 token-usage-report: Relatório de uso de token
 token-usages-are-not: Os usos de token não são registrados quando
-tokens-used-for-prom: Tokens usados ​​para prompt
-tokens-used-for-tran: Tokens usados ​​para tradução
+tokens-used-for-prom: Tokens usados para prompt
+tokens-used-for-tran: Tokens usados para tradução
 total-token-usage: Uso total de tokens
 translate: Traduzir
 works-only-with-gpt-: Funciona apenas com o modelo GPT-4.

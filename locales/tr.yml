@@ -26,7 +26,7 @@ intro:
   hi: Merhaba, {name}!
   whats-your-name: Adınız nedir?
 is-enabled-we-will-w: |-
-  etkin. 
+  etkin.
   Bunu yakında iyileştirmek için çalışacağız.
 learn-more-about-ope: >-
   OpenAI'nin modeli, belirteçleri ve bağlam uzunluğu hakkında buradan daha fazla
@@ -40,7 +40,7 @@ reset-usage-data: Kullanım Verilerini Sıfırla
 see-more-info-below: Aşağıda daha fazla bilgi görün
 some-enhanced-featur: >-
   OpenTranslate'teki bazı geliştirilmiş özellikler, belirteç kullanımınızı
-  artıracaktır. 
+  artıracaktır.
 
   Gelişmiş özellikler şunları içerir: Ses tonu, Belge Yükle vb. Kullanılan jeton
   miktarı belgenizin uzunluğuna bağlıdır.

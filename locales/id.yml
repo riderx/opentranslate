@@ -26,7 +26,7 @@ intro:
   hi: Halo, {name}!
   whats-your-name: Siapa nama anda?
 is-enabled-we-will-w: |-
-  diaktifkan. 
+  diaktifkan.
   Kami akan bekerja untuk meningkatkan ini segera.
 learn-more-about-ope: >-
   Pelajari lebih lanjut tentang model, token, dan panjang konteks OpenAI di
@@ -40,7 +40,7 @@ reset-usage-data: Setel Ulang Data Penggunaan
 see-more-info-below: Lihat info lebih lanjut di bawah ini
 some-enhanced-featur: >-
   Beberapa fitur yang disempurnakan di OpenTranslate akan meningkatkan
-  penggunaan token Anda. 
+  penggunaan token Anda.
 
   Fitur yang disempurnakan meliputi: Nada suara, Unggah Dokumen, dll. Jumlah
   token yang digunakan bergantung pada panjang dokumen Anda.

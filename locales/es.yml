@@ -26,7 +26,7 @@ intro:
   hi: ¡Hola, {name}!
   whats-your-name: ¿Cómo te llamas?
 is-enabled-we-will-w: |-
-  está habilitado. 
+  está habilitado.
   Trabajaremos para mejorar esto pronto.
 learn-more-about-ope: >-
   Obtenga más información sobre el modelo, los tokens y la longitud del contexto
@@ -39,7 +39,7 @@ public-pricing-of-op: precios públicos de la API de OpenAI
 reset-usage-data: Restablecer datos de uso
 see-more-info-below: Ver más información a continuación
 some-enhanced-featur: >-
-  Algunas funciones mejoradas de OpenTranslate aumentarán el uso de su token. 
+  Algunas funciones mejoradas de OpenTranslate aumentarán el uso de su token.
 
   Las funciones mejoradas incluyen: Tono de voz, Cargar documento, etc. La
   cantidad de tokens utilizados depende de la longitud de su documento.

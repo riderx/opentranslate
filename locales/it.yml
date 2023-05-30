@@ -25,7 +25,7 @@ intro:
   hi: Ciao, {name}!
   whats-your-name: Come ti chiami?
 is-enabled-we-will-w: |-
-  è abilitato. 
+  è abilitato.
   Lavoreremo per migliorarlo presto.
 learn-more-about-ope: Scopri di più sul modello, i token e la lunghezza del contesto di OpenAI qui.
 not-found: Non trovato
@@ -37,7 +37,7 @@ reset-usage-data: Reimposta dati di utilizzo
 see-more-info-below: Vedi ulteriori informazioni di seguito
 some-enhanced-featur: >-
   Alcune funzionalità avanzate su OpenTranslate aumenteranno l'utilizzo del tuo
-  token. 
+  token.
 
   Le funzionalità avanzate includono: Tono di voce, Carica documento, ecc. La
   quantità di token utilizzati dipende dalla lunghezza del documento.

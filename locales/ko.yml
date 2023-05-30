@@ -23,7 +23,7 @@ intro:
   hi: 안녕, {name}!
   whats-your-name: 이름이 뭐예요?
 is-enabled-we-will-w: |-
-  사용 가능. 
+  사용 가능.
   우리는 곧 이것을 개선하기 위해 노력할 것입니다.
 learn-more-about-ope: 여기에서 OpenAI의 모델, 토큰 및 컨텍스트 길이에 대해 자세히 알아보세요.
 not-found: 찾을 수 없습니다
@@ -34,7 +34,7 @@ public-pricing-of-op: OpenAI API의 공개 가격
 reset-usage-data: 사용 데이터 재설정
 see-more-info-below: 아래에서 더 많은 정보 보기
 some-enhanced-featur: |-
-  OpenTranslate의 일부 향상된 기능은 토큰 사용을 증가시킵니다. 
+  OpenTranslate의 일부 향상된 기능은 토큰 사용을 증가시킵니다.
   향상된 기능에는 음성 톤, 문서 업로드 등이 포함됩니다. 사용되는 토큰의 양은 문서의 길이에 따라 다릅니다.
 something-went-wrong-: 문제가 발생했습니다. 나중에 다시 시도해 주세요.
 streaming-response: 스트리밍 응답

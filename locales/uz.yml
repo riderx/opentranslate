@@ -26,7 +26,7 @@ intro:
   hi: Assalomu alaykum, {name}!
   whats-your-name: Ismingiz nima?
 is-enabled-we-will-w: |-
-  yoqilgan. 
+  yoqilgan.
   Tez orada buni yaxshilash ustida ishlaymiz.
 learn-more-about-ope: OpenAI modeli, tokenlari va kontekst uzunligi haqida koʻproq bilib oling.
 not-found: Topilmadi
@@ -38,7 +38,7 @@ reset-usage-data: Foydalanish ma'lumotlarini tiklash
 see-more-info-below: Qoʻshimcha maʼlumotni quyida koʻring
 some-enhanced-featur: >-
   OpenTranslate’dagi ba’zi yaxshilangan xususiyatlar tokendan foydalanishni
-  oshiradi. 
+  oshiradi.
 
   Kengaytirilgan funksiyalarga quyidagilar kiradi: Ovoz ohangi, Hujjatni yuklash
   va h.k. Ishlatilgan tokenlar miqdori hujjatingiz uzunligiga bogʻliq.

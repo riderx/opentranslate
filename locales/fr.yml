@@ -26,7 +26,7 @@ intro:
   hi: Salut, {name}!
   whats-your-name: Comment t'appelles-tu ?
 is-enabled-we-will-w: |-
-  est autorisé. 
+  est autorisé.
   Nous travaillerons bientôt à améliorer cela.
 learn-more-about-ope: >-
   En savoir plus sur le modèle, les jetons et la longueur du contexte d'OpenAI

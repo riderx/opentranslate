@@ -27,7 +27,7 @@ intro:
   hi: Hi, {name}!
   whats-your-name: Tên bạn là gì?
 is-enabled-we-will-w: |-
-  được kích hoạt. 
+  được kích hoạt.
   Chúng tôi sẽ làm việc để cải thiện điều này sớm.
 learn-more-about-ope: Tìm hiểu thêm về mô hình, mã thông báo và độ dài ngữ cảnh của OpenAI tại đây.
 not-found: Không tìm thấy
@@ -39,7 +39,7 @@ reset-usage-data: Đặt lại dữ liệu sử dụng
 see-more-info-below: Xem thêm thông tin bên dưới
 some-enhanced-featur: >-
   Một số tính năng nâng cao trên OpenTranslate sẽ tăng mức sử dụng mã thông báo
-  của bạn. 
+  của bạn.
 
   Các tính năng nâng cao bao gồm: Giọng nói, Tài liệu tải lên, v.v. Số lượng mã
   thông báo được sử dụng tùy thuộc vào độ dài tài liệu của bạn.

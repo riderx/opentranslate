@@ -127,8 +127,8 @@ async function translateText() {
       <div class="safe-areas absolute bottom-0 right-0 z-10 w-full flex-row-reverse items-center bg-white pt-2 md:relative md:flex md:flex-wrap md:justify-between dark:bg-gray-800">
         <div class="flex items-center md:flex-wrap md:justify-between">
           <select v-model="tone" class="w-auto bg-transparent px-4 py-2 md:ml-2 md:mt-0 md:w-auto dark:text-white">
-            <option v-for="t in tones" :key="t.code" :value="t.name">
-              {{ t.emoji }} {{ t.name }}
+            <option v-for="to in tones" :key="to.code" :value="t.name">
+              {{ to.emoji }} {{ to.name }}
             </option>
           </select>
           <button class="w-full rounded bg-blue-500 px-4 py-2 text-white md:ml-2 md:w-auto" @click="translateText">

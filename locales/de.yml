@@ -28,7 +28,7 @@ intro:
   hi: Hi, {name}!
   whats-your-name: Wie heißt du?
 is-enabled-we-will-w: |-
-  aktiviert. 
+  aktiviert.
   Wir werden daran arbeiten, dies bald zu verbessern.
 learn-more-about-ope: >-
   Erfahren Sie hier mehr über das Modell, die Token und die Kontextlänge von
@@ -41,7 +41,7 @@ public-pricing-of-op: öffentliche Preisgestaltung der OpenAI-API
 reset-usage-data: Nutzungsdaten zurücksetzen
 see-more-info-below: Weitere Informationen finden Sie weiter unten
 some-enhanced-featur: >-
-  Einige erweiterte Funktionen von OpenTranslate erhöhen Ihre Token-Nutzung. 
+  Einige erweiterte Funktionen von OpenTranslate erhöhen Ihre Token-Nutzung.
 
   Zu den erweiterten Funktionen gehören: Tonfall, Dokument hochladen usw. Die
   Anzahl der verwendeten Token hängt von der Länge Ihres Dokuments ab.
