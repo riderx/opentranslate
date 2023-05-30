@@ -10,6 +10,9 @@ dependencies:
   '@capacitor/ios':
     specifier: ^5.0.4
     version: 5.0.4(@capacitor/core@5.0.4)
+  '@capgo/capacitor-updater':
+    specifier: ^10.0.0
+    version: 10.0.0(@capacitor/core@5.0.4)
   '@unhead/vue':
     specifier: ^1.1.27
     version: 1.1.27(vue@3.3.4)
@@ -1553,6 +1556,14 @@ packages:
 
   /@capacitor/ios@5.0.4(@capacitor/core@5.0.4):
     resolution: {integrity: sha512-JVyggBTbHR1OWqxTRysgGKhZHDuM0AQwCIbylvEpza5X0zmaltbQxVC83abcwOKsgNJnrcuv+HUgV+LXg8Dk4Q==}
+    peerDependencies:
+      '@capacitor/core': ^5.0.0
+    dependencies:
+      '@capacitor/core': 5.0.4
+    dev: false
+
+  /@capgo/capacitor-updater@10.0.0(@capacitor/core@5.0.4):
+    resolution: {integrity: sha512-GGcWhQXZ82DeLH+Eu7uBVb23jyZ1H7vnHGv8bfsjpYK2tr/gHysEqjyYbh4q0Rac9hPootgyxv5us7JH/2Q81Q==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:

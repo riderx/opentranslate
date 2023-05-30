@@ -1,5 +1,6 @@
 import { ViteSSG } from 'vite-ssg'
 import { setupLayouts } from 'virtual:generated-layouts'
+import { CapacitorUpdater } from '@capgo/capacitor-updater'
 import App from './App.vue'
 import type { UserModule } from './types'
 import { usePlausible } from '~/composables/plausible'
@@ -13,7 +14,7 @@ import './styles/main.css'
 import 'uno.css'
 
 const routes = setupLayouts(generatedRoutes)
-
+CapacitorUpdater.notifyAppReady()
 // https://github.com/antfu/vite-ssg
 export const createApp = ViteSSG(
   App,
