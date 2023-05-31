@@ -150,6 +150,13 @@ export default defineConfig({
 
   // https://github.com/antfu/vite-ssg
   ssgOptions: {
+    includedRoutes(paths, routes) {
+      // exclude all the route paths that contains 'foo'
+      return paths.filter((i) => {
+        // console.log('i', i)
+        return !i.includes('/')
+      })
+    },
     script: 'async',
     formatting: 'minify',
     crittersOptions: {
