@@ -29,7 +29,7 @@ const dateUsage = computed(() => {
         {{ t('works-only-with-gpt-') }}
       </p>
 
-      <label for="api_key" class="mb-2 block text-gray-800 dark:text-white">OpenAI API Key: <a href="https://platform.openai.com/account/api-keys" target="_blank">({{ t('get-api-key-here') }})</a></label>
+      <label for="api_key" class="mb-2 block text-gray-800 dark:text-white">OpenAI API Key: <a class="text-light-blue-600 underline" href="https://platform.openai.com/account/api-keys" target="_blank">({{ t('get-api-key-here') }})</a></label>
       <input id="api_key" v-model="keyStore.savedKey" type="text" class="mb-4 w-full border border-gray-300 rounded p-2 dark:border-gray-600 dark:bg-gray-700 dark:text-white" :placeholder="t('enter-your-api-key')">
       <!-- <label for="model" class="mb-2 block text-gray-800 dark:text-white">OpenAI Model:</label>
       <select id="model" v-model="keyStore.model" class="mb-4 bg-transparent p-2 md:mb-0 md:mr-2 md:w-auto dark:text-white">
