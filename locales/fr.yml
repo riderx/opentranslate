@@ -13,12 +13,13 @@ cost-associated-with: Le coût associé à un chat comprend le coût en jetons p
 dashboard: tableau de bord
 detect-language: Détecter la langue
 each-model-has-its-o: >-
-  Chaque modèle a son propre tarif, chaque type de jetons dans chaque modèle a également
-  son propre tarif.
+  Chaque modèle a son propre tarif, chaque type de jetons dans chaque modèle a
+  également son propre tarif.
 enter-api-key: Saisir la clé API
 enter-your-api-key: Saisissez votre clé API
 estimated: estimé
 for-the-most-accurat: pour le coût le plus précis de votre clé API.
+get-api-key-here: Obtenez la clé API ici
 how-is-the-cost-calc: Comment le coût est-il calculé ?
 intro:
   aka: Également connu sous le nom de
@@ -27,7 +28,9 @@ intro:
   hi: Bonjour, {name} !
   whats-your-name: Quel est votre nom ?
 is-enabled-we-will-w: est activé. Nous travaillerons à améliorer cela prochainement.
-learn-more-about-ope: En savoir plus sur le modèle OpenAI, les jetons et la longueur du contexte ici.
+learn-more-about-ope: >-
+  En savoir plus sur le modèle OpenAI, les jetons et la longueur du contexte
+  ici.
 not-found: Non trouvé
 please-enter-text-to-translate: Veuillez saisir un texte à traduire
 please-enter-your-api-key: Veuillez d'abord saisir une clé API
@@ -38,9 +41,10 @@ recorded-since: Enregistré depuis
 reset-usage-data: Réinitialiser les données d'utilisation
 see-more-info-below: Voir plus d'informations ci-dessous
 some-enhanced-featur: >-
-  Certaines fonctionnalités améliorées d'OpenTranslate augmenteront votre consommation de jetons. Les
-  fonctionnalités améliorées incluent: le ton de la voix, le téléchargement de documents, etc. Le nombre de
-  jetons utilisés dépend de la longueur de votre document.
+  Certaines fonctionnalités améliorées d'OpenTranslate augmenteront votre
+  consommation de jetons. Les fonctionnalités améliorées incluent: le ton de la
+  voix, le téléchargement de documents, etc. Le nombre de jetons utilisés dépend
+  de la longueur de votre document.
 something-went-wrong-: Quelque chose s'est mal passé, veuillez réessayer plus tard
 streaming-response: réponse en streaming
 support: Support
@@ -52,4 +56,6 @@ tokens-used-for-tran: Jetons utilisés pour la traduction
 total-token-usage: Utilisation totale des jetons
 translate: Traduire
 works-only-with-gpt-: Fonctionne uniquement avec le modèle GPT-4.
-your-api-key-is-stor: Votre clé API est stockée localement sur votre navigateur et n'est envoyée nulle part ailleurs.
+your-api-key-is-stor: >-
+  Votre clé API est stockée localement sur votre navigateur et n'est envoyée
+  nulle part ailleurs.

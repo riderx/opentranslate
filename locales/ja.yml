@@ -16,6 +16,7 @@ enter-api-key: APIキーを入力してください
 enter-your-api-key: API キーを入力してください
 estimated: 推定
 for-the-most-accurat: API キーの最も正確なコストを確認します。
+get-api-key-here: ここでAPIキーを取得します
 how-is-the-cost-calc: コストはどのように計算されますか?
 intro:
   desc: 固執された Vite スターターテンプレート

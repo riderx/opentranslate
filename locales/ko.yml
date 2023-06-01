@@ -16,6 +16,7 @@ enter-api-key: API 키 입력
 enter-your-api-key: API 키를 입력하세요
 estimated: 추정된
 for-the-most-accurat: API 키의 가장 정확한 비용을 위해.
+get-api-key-here: 여기에서 API 키 받기
 how-is-the-cost-calc: 비용은 어떻게 계산되나요?
 intro:
   desc: Vite 애플리케이션 템플릿
