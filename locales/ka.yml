@@ -53,7 +53,7 @@ tokens-used-for-prom: ჟეტონები, რომლებიც გა�
 tokens-used-for-tran: თარგმანისთვის გამოყენებული ნიშნები
 total-token-usage: ტოკენის მთლიანი გამოყენება
 translate: თარგმნეთ
-works-only-with-gpt-: მუშაობს მხოლოდ GPT-4 მოდელზე.
+works-only-with-gpt-: საუკეთესოდ მუშაობს GPT-4 მოდელთან.
 your-api-key-is-stor: >-
   თქვენი API გასაღები ინახება ადგილობრივად თქვენს ბრაუზერში და არასოდეს
   იგზავნება სხვაგან.

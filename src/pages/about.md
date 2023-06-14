@@ -8,6 +8,6 @@ title: About
   <h3>About</h3>
 </div>
 
-[OpenTranslate](https://github.com/riderx/opentranslate) is an open-source translation tool made by [@riderx](https://github.com/riderx), using OpenAi gpt-4. With **Tone support**, **Typo correction**, **markdown support**, and much more coming.
+[OpenTranslate](https://github.com/riderx/opentranslate) is an open-source translation tool made by [@riderx](https://github.com/riderx), using OpenAi GPT-4 / GPT-3. With **Tone support**, **Typo correction**, **markdown support**, and much more coming.
 
 Check out the [GitHub repo](https://github.com/riderx/opentranslate) for more details.

@@ -29,11 +29,9 @@ export async function sendTranslateRequest(token: string, payload: OpenAiRequest
       { role: 'user', content: payloadString },
     ],
   })
-  const bodyToken = getTokenLength(payloadString)
   const keyStore = useApiKeyStore()
   // add bodyToken to tokenUsage
-  keyStore.tokenUsage += bodyToken
-  keyStore.tokenUsagePrompt += getTokenSystemLength()
+  keyStore.tokenUsagePrompt += getTokenSystemLength() + getTokenLength(payloadString)
   const options = {
     headers: {
       'Authorization': `Bearer ${token}`,
@@ -46,6 +44,7 @@ export async function sendTranslateRequest(token: string, payload: OpenAiRequest
     // console.log(res.status, ': ', JSON.stringify(res.data))
     const resParsed = JSON.parse(res.data.choices[0].message.content) as OpenAiResponse
     // console.log('resParsed', resParsed)
+    keyStore.tokenUsage += getTokenLength(res.data.choices[0].message.content)
     return resParsed
   }
   catch (e) {

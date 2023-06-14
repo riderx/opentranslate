@@ -47,5 +47,5 @@ tokens-used-for-prom: プロンプトに使用されるトークン
 tokens-used-for-tran: 翻訳に使用されるトークン
 total-token-usage: トークンの総使用量
 translate: 翻訳
-works-only-with-gpt-: GPT-4 モデルでのみ動作します。
+works-only-with-gpt-: GPT-4 モデルで最適に動作します。
 your-api-key-is-stor: API キーはブラウザ上でローカルに保存され、他の場所に送信されることはありません。

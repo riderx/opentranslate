@@ -51,7 +51,7 @@ tokens-used-for-prom: Жетони, що використовуються для
 tokens-used-for-tran: Лексеми, що використовуються для перекладу
 total-token-usage: Загальне використання маркера
 translate: Перекласти
-works-only-with-gpt-: Працює тільки з моделлю GPT-4.
+works-only-with-gpt-: Найкраще працює з моделлю GPT-4.
 your-api-key-is-stor: >-
   Ваш ключ API зберігається локально у вашому браузері та ніколи не надсилається
   нікуди.

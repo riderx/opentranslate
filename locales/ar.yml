@@ -52,5 +52,5 @@ tokens-used-for-prom: الرموز المستخدمة في promp
 tokens-used-for-tran: الرموز المستخدمة في الترجمة
 total-token-usage: إجمالي استخدام الرمز المميز
 translate: يترجم
-works-only-with-gpt-: يعمل فقط مع طراز GPT-4.
+works-only-with-gpt-: يعمل بشكل أفضل مع طراز GPT-4.
 your-api-key-is-stor: يتم تخزين مفتاح API الخاص بك محليًا على متصفحك ولا يتم إرساله إلى أي مكان آخر.

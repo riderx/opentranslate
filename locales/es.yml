@@ -54,7 +54,7 @@ tokens-used-for-prom: Fichas utilizadas para el baile
 tokens-used-for-tran: Fichas utilizadas para la traducción
 total-token-usage: Uso total de fichas
 translate: Traducir
-works-only-with-gpt-: Funciona solo con el modelo GPT-4.
+works-only-with-gpt-: Funciona mejor con el modelo GPT-4.
 your-api-key-is-stor: >-
   Su clave API se almacena localmente en su navegador y nunca se envía a ningún
   otro lugar.

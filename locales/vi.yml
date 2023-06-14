@@ -54,7 +54,7 @@ tokens-used-for-prom: Mã thông báo được sử dụng để nhắc nhở
 tokens-used-for-tran: Mã thông báo được sử dụng để dịch
 total-token-usage: Tổng mức sử dụng mã thông báo
 translate: Dịch
-works-only-with-gpt-: Chỉ hoạt động với mẫu GPT-4.
+works-only-with-gpt-: Hoạt động tốt nhất với mẫu GPT-4.
 your-api-key-is-stor: >-
   Khóa API của bạn được lưu trữ cục bộ trên trình duyệt của bạn và không bao giờ
   được gửi đi bất kỳ nơi nào khác.

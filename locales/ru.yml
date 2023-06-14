@@ -52,7 +52,7 @@ tokens-used-for-prom: Жетоны, используемые для пригла
 tokens-used-for-tran: Токены, используемые для перевода
 total-token-usage: Общее использование токенов
 translate: Переводить
-works-only-with-gpt-: Работает только с моделью GPT-4.
+works-only-with-gpt-: Лучше всего работает с моделью GPT-4.
 your-api-key-is-stor: >-
   Ваш API-ключ хранится локально в вашем браузере и никогда никуда не
   отправляется.

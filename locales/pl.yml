@@ -52,7 +52,7 @@ tokens-used-for-prom: Tokeny używane do podpowiedzi
 tokens-used-for-tran: Tokeny używane do tłumaczenia
 total-token-usage: Całkowite użycie tokena
 translate: Tłumaczyć
-works-only-with-gpt-: Działa tylko z modelem GPT-4.
+works-only-with-gpt-: Najlepiej współpracuje z modelem GPT-4.
 your-api-key-is-stor: >-
   Twój klucz API jest przechowywany lokalnie w Twojej przeglądarce i nigdy nie
   jest wysyłany nigdzie indziej.

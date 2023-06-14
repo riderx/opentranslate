@@ -20,7 +20,7 @@ Using <b>Opentranslate</b><sup><em>(AI)</em></sup><br>
 - **Tone support**
 - **Typo correction**
 - **Markdown support**
-- **OpenAi gpt-4**
+- **OpenAi gpt-4 / gpt-3**
 
 Feel free to open PR to add more features.
 
@@ -154,4 +154,4 @@ Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along
 
 I believe in Open world, Open source, and Open web. Google translate or Deepl are totally close and or bad or paid. So I made this project to make a better translation tool Free to use with your own API key.
 ?In the future i will probably add a way to use it without API key by paying, but for now, you need to get one.
-It's only work with gpt-4, so you need to get an API key from OpenAi.
+It's work best with gpt-4, so you need to get an API key from OpenAI.

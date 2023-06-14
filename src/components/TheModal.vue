@@ -31,15 +31,18 @@ const dateUsage = computed(() => {
 
       <label for="api_key" class="mb-2 block text-gray-800 dark:text-white">OpenAI API Key: <a class="text-light-blue-600 underline" href="https://platform.openai.com/account/api-keys" target="_blank">({{ t('get-api-key-here') }})</a></label>
       <input id="api_key" v-model="keyStore.savedKey" type="text" class="mb-4 w-full border border-gray-300 rounded p-2 dark:border-gray-600 dark:bg-gray-700 dark:text-white" :placeholder="t('enter-your-api-key')">
-      <!-- <label for="model" class="mb-2 block text-gray-800 dark:text-white">OpenAI Model:</label>
+      <label for="model" class="mb-2 block text-gray-800 dark:text-white">OpenAI Model:</label>
       <select id="model" v-model="keyStore.model" class="mb-4 bg-transparent p-2 md:mb-0 md:mr-2 md:w-auto dark:text-white">
-        <option value="gpt-4">
-          ✨ GPT-4
+        <option value="gpt-4-0613">
+          ✨ GPT-4 8k
         </option>
-        <option value="gpt-3.5-turbo">
-          ✨ GPT-3
+        <option value="gpt-3.5-turbo-0613">
+          ✨ GPT-3 4k
         </option>
-      </select> -->
+        <option value="gpt-3.5-turbo-16k">
+          ✨ GPT-3 16k
+        </option>
+      </select>
       <div class="my-4 max-h-100 overflow-y-auto rounded-md bg-green-100 px-2 py-1 text-left dark:bg-sky-900">
         <div class="my-4 cursor-pointer text-center font-semibold hover:underline">
           💸 {{ t('token-usage-report') }}

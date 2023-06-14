@@ -55,7 +55,7 @@ tokens-used-for-prom: Bilgi istemi için kullanılan belirteçler
 tokens-used-for-tran: Çeviri için kullanılan belirteçler
 total-token-usage: Toplam belirteç kullanımı
 translate: Çevirmek
-works-only-with-gpt-: Yalnızca GPT-4 modeliyle çalışır.
+works-only-with-gpt-: GPT-4 modeliyle en iyi şekilde çalışır.
 your-api-key-is-stor: >-
   API Anahtarınız tarayıcınızda yerel olarak saklanır ve asla başka bir yere
   gönderilmez.

@@ -47,5 +47,5 @@ tokens-used-for-prom: 프롬프트에 사용되는 토큰
 tokens-used-for-tran: 번역에 사용되는 토큰
 total-token-usage: 총 토큰 사용량
 translate: 번역하다
-works-only-with-gpt-: GPT-4 모델에서만 작동합니다.
+works-only-with-gpt-: GPT-4 모델에서 가장 잘 작동합니다.
 your-api-key-is-stor: API 키는 브라우저에 로컬로 저장되며 다른 곳으로 전송되지 않습니다.

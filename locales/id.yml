@@ -55,7 +55,7 @@ tokens-used-for-prom: Token yang digunakan untuk prompt
 tokens-used-for-tran: Token yang digunakan untuk terjemahan
 total-token-usage: Total penggunaan token
 translate: Menerjemahkan
-works-only-with-gpt-: Bekerja hanya dengan model GPT-4.
+works-only-with-gpt-: Berfungsi paling baik dengan model GPT-4.
 your-api-key-is-stor: >-
   Kunci API Anda disimpan secara lokal di browser Anda dan tidak pernah dikirim
   ke tempat lain.

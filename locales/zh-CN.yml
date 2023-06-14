@@ -48,5 +48,5 @@ tokens-used-for-prom: 用于提示的标记
 tokens-used-for-tran: 用于翻译的令牌
 total-token-usage: 令牌总使用量
 translate: 翻译
-works-only-with-gpt-: 仅适用于 GPT-4 模型。
+works-only-with-gpt-: 最适合 GPT-4 模型。
 your-api-key-is-stor: 您的 API 密钥存储在您的浏览器本地，绝不会发送到其他任何地方。

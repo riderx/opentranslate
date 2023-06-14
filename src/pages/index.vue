@@ -27,7 +27,12 @@ function invertText() {
   requestText.value = responseText.value
   responseText.value = tmp2
 }
-const tokenLenght = computed(() => getTokenLength(requestText.value))
+const tokenLength = computed(() => getTokenLength(requestText.value))
+const maxLength = computed(() => {
+  if (tokenLength.value > keyStore.maxToken)
+    return requestText.value.length
+  return requestText.value.length + 10000
+})
 
 function copyToClipboard() {
   navigator.clipboard.writeText(responseText.value)
@@ -89,16 +94,21 @@ async function translateText() {
       </div>
       <div class="grid grid-cols-1 mt-8 md:grid-cols-2 md:gap-4">
         <div class="relative h-1/2-screen w-full">
-          <textarea v-model="requestText" maxlength="7500" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
+          <textarea v-model="requestText" :maxlength="maxLength" class="h-full w-full border border-gray-300 rounded p-2 pr-10 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="10" placeholder="Enter text to translate" />
           <div class="absolute absolute right-2 top-2">
             <client-only>
               <Popper :hover="true">
-                <button class="rounded bg-gray-300 p-2 text-gray-700 dark:bg-gray-600 dark:text-gray-300">
-                  {{ tokenLenght }}
+                <button
+                  class="rounded p-2" :class="{
+                    'bg-red-500 text-white': tokenLength > keyStore.maxToken,
+                    'bg-gray-300 dark:bg-gray-600 text-gray-700 dark:text-gray-300': tokenLength <= keyStore.maxToken,
+                  }"
+                >
+                  {{ tokenLength }}
                 </button>
                 <template #content>
                   <div class="pointer-events-none w-28 rounded-lg bg-black px-3 py-2 text-center text-xs text-white opacity-100 -left-1/2">
-                    {{ tokenLenght }} / 7 500 tokens
+                    {{ tokenLength }} / {{ keyStore.maxToken.toLocaleString() }} tokens
                   </div>
                 </template>
               </Popper>

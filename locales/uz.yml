@@ -53,7 +53,7 @@ tokens-used-for-prom: Tezkor uchun ishlatiladigan tokenlar
 tokens-used-for-tran: Tarjima uchun ishlatiladigan tokenlar
 total-token-usage: Umumiy tokendan foydalanish
 translate: Tarjima
-works-only-with-gpt-: Faqat GPT-4 modeli bilan ishlaydi.
+works-only-with-gpt-: GPT-4 modeli bilan eng yaxshi ishlaydi.
 your-api-key-is-stor: >-
   Sizning API kalitingiz brauzeringizda mahalliy sifatida saqlanadi va hech
   qachon boshqa joyga yuborilmaydi.

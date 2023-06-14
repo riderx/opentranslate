@@ -52,5 +52,5 @@ tokens-used-for-prom: Tokens used for promp
 tokens-used-for-tran: Tokens used for translation
 total-token-usage: Total token usage
 translate: Translate
-works-only-with-gpt-: Works only with GPT-4 model.
+works-only-with-gpt-: Works best with GPT-4 model.
 your-api-key-is-stor: Your API Key is stored locally on your browser and never sent anywhere else.

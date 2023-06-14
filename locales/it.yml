@@ -52,7 +52,7 @@ tokens-used-for-prom: Gettoni utilizzati per il prompt
 tokens-used-for-tran: Token utilizzati per la traduzione
 total-token-usage: Utilizzo totale del token
 translate: Tradurre
-works-only-with-gpt-: Funziona solo con il modello GPT-4.
+works-only-with-gpt-: Funziona meglio con il modello GPT-4.
 your-api-key-is-stor: >-
   La tua chiave API viene memorizzata localmente sul tuo browser e non viene mai
   inviata da nessun'altra parte.

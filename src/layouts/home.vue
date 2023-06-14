@@ -7,7 +7,7 @@
   >
     <RouterView />
     <div class="mt-4 md:mt-0">
-      Better translate text with OpenAI GPT-4
+      Better translate text with OpenAI GPT-4 / GTP-3
     </div>
     <TheFooter />
   </main>
