@@ -1,7 +1,6 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
 import { useStorage } from '@vueuse/core'
 
-const tokenPriceBase = 0.06
 export const useApiKeyStore = defineStore('apikey', () => {
   /**
    * Current name of the user.
